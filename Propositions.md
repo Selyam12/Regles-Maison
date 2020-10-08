@@ -12,6 +12,7 @@ En quoi ça consiste ?
 +2=>1d4, +3=>1d6, +4=>1d8, +5=>1d10, +6=>1d12
 * Il annonce AVANT de faire son attaque, la manœuvre qu'il veut réaliser.
 * Si l'attaque touche ET que le dé de maîtrise fait 3 ou plus, la manœuvre réussie ET l'attaque porte ses dégâts
+* Plus le dé de maîtrise est élevé, plus la manœuvre est grandiose.
 * Si l'attaque touche ET que le dé de maîtrise fait 2 ou moins, la manœuvre échoue ET l'attaque porte ses dégâts
 * Si l'attaque échoue, tout échoue
 * Si échec critique (1 sur d20) + dé de maîtrise égal à 1, il y a une complication (ex. tombe au sol, frappe un allié etc...)
@@ -60,3 +61,5 @@ ___________________________________
 -- 4e prop --
 
 **Disparition des slots de sorts**
+
+L'arcaniste 
