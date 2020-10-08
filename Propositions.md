@@ -1,5 +1,7 @@
 # Propositions
 
+___________________________
+___________________________________
 
 -- 1ere prop --
 
@@ -30,4 +32,31 @@ ___________________________________
 
 -- 2e prop --
 
+**Les boucliers seront éclatés**
 
+Chaque fois que vous prenez des dégâts au combat
+vous pouvez choisir de sacrifier votre bouclier pour
+l’éviter. Un bouclier magique peut absorber
+plusieurs coups, mais sera
+détruit une fois que sa limite est
+atteinte.
+
+__________________________________
+___________________________________
+
+-- 3e prop --
+
+**Mur de boucliers**
+
+Les combattants qui forment un mur de boucliers
+gagnent +2 à leur classe d’armure aussi longtemps qu’ils
+le maintiennent. Un chef est désigné. 
+
+Le mur est cassé si le chef est incapacité, si un membre rate un jet de moral ou sacrifie un bouclier.
+
+__________________________________
+___________________________________
+
+-- 4e prop --
+
+**Disparition des slots de sorts**
