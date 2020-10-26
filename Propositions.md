@@ -47,4 +47,14 @@ Le mur est cassé si le chef est incapacité, si un membre rate un jet de moral 
 
 ## 4e prop
 
-**Disparition des slots de sorts**
+**Overcasting**
+
+Les lanceurs de sort peuvent tenter de lancer un sort sans utiliser leur slots. Chaque fois qu'ils le tentent, ils doivent faire un check en lançant 1d20+Maitrise+bonus de stat  vs 10+niveau de sort
+
+Résultats pour un sort de niveau 1:
+
+* "1" Echec catastrophique
+* "<11", tu ne peux plus lancer ce sort
+* ">=11" ca passe
+* ">=16" augmente dégâts ou durée ou zone etc.
+* ">= 21" augmente (dégâts et duré) ou (dégâts et zone) etc.
