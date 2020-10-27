@@ -162,14 +162,14 @@ Les villes et villages sont catégorisés de I à VI, I ayant le marché le plus
 # <u>Personnels</u>
 
 
-| Market Class | Cost Per Week Per Hireling Type |
-| ------------ | ------------------------------- |
-| I            | 1d6+15gp                        |
-| II           | 1d10+10gp                       |
-| III          | 1d8+5gp                         |
-| IV           | 1d6+3gp                         |
-| V            | 1d6gp                           |
-| VI           | 1d3gp                           |
+| Market Class | Cost of Search Per Week Per Hireling Type |
+| ------------ | ----------------------------------------- |
+| I            | 1d6+15gp                                  |
+| II           | 1d10+10gp                                 |
+| III          | 1d8+5gp                                   |
+| IV           | 1d6+3gp                                   |
+| V            | 1d6gp                                     |
+| VI           | 1d3gp                                     |
 
 | Reaction to Hiring Offer |                    |
 | ------------------------ | ------------------ |
@@ -179,6 +179,40 @@ Les villes et villages sont catégorisés de I à VI, I ayant le marché le plus
 | 6–8                      | Try Again          |
 | 9–11                     | Accept             |
 | 12+                      | Accept with élan   |
+
+
+
+| Henchmen Monthly Fee |                   |             |                   |
+| -------------------- | ----------------- | ----------- | ----------------- |
+| Class Level          | Monthly Wage (gp) | Class Level | Monthly Wage (gp) |
+| 0                    | 12                | 8           | 3,000             |
+| 1                    | 25                | 9           | 7,250             |
+| 2                    | 50                | 10          | 12,000            |
+| 3                    | 100               | 11          | 35,000            |
+| 4                    | 200               | 12          | 60,000            |
+| 5                    | 400               | 13          | 145,000           |
+| 6                    | 800               | 14          | 350,000           |
+| 7                    | 1,600             |             |                   |
+
+| Specialists         | Cost                |
+| ------------------- | ------------------- |
+| Alchemist           | 250gp/month         |
+| Animal Trainer      | 25gp to 250gp/month |
+| Armorer             | 75gp/month          |
+| Engineer            | 250gp/month         |
+| Healer              | 1gp/day/patient     |
+| Healer (physiker)   | 2gp/day/patient     |
+| Healer (chirugeon)  | 4gp/day/patient     |
+| Mariner (rower)     | 3gp/month           |
+| Mariner (sailor)    | 6gp/month           |
+| Mariner (navigator) | 25gp/month          |
+| Mariner (captain)   | 100gp/month         |
+| Ruffian (carouser)  | 6gp/month           |
+| Ruffian (footpads)  | 25gp/month          |
+| Ruffian (spy)       | 125gp/month         |
+| Ruffian (thug)      | 25gp/month          |
+| Ruffian (reciters)  | 25gp/month          |
+| Sage                | 500gp/month         |
 
 
 
