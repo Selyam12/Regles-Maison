@@ -32,8 +32,6 @@ Every tenday, roll once on the Tavern Events table before rolling on the Busines
 
 The Yawning Portal is perhaps the most famous tavern in all the Forgotten Realms. Located in the Castle Ward of the city of Waterdeep, the establishment is named after the large well in its common room–the tip of a sunken stone tower–which descends into the mazelike dungeon of Undermountain. Treasure seekers from across the Realms meet in the inn's taproom to plan their own delves, making it the perfect place to start an adventure!
 
-The Yawning Portal was built in 1306 DR by the notorious adventurer Durnan, who founded the inn using treasure looted from his own expedition into Undermountain. Durnan later returned into the mad wizard's maze, leaving the business to his family, but returned almost a century later to reclaim his property. Today, the apparently ageless adventurer dares his patrons to enter the dungeon below and claim their own destiny!
-
 The Yawning Portal first featured in FR1: *Waterdeep and the North* (1987) by Ed Greenwood, creator of the Forgotten Realms.
 
 
@@ -44,8 +42,9 @@ The Yawning Portal first featured in FR1: *Waterdeep and the North* (1987) by Ed
 - Kitchen (Cheap)
 - Larder (Cheap)
 - Cellar (Cheap)
+- Brewery (Cheap)
 
-These upgrades give the establishment a starting valuation of 4, making it a squalid business. To make it shine, the characters need to invest more coin!
+These upgrades give the establishment a starting valuation of 5, making it a Poor business. To make it shine, the characters need to invest more coin!
 
 
 
@@ -260,13 +259,13 @@ The following activities are unlocked by upgrades in the "Advanced Rules: Tavern
 
 Players must choose to invest their downtime as a group i.e. characters can't split up and spend downtime on separate activities simultaneously. Some activities can only be performed a limited amount of times per tenday, as specified under the "Frequency" header. Unless specified otherwise, each day of downtime that you spend working on these activities adds +1 to your next roll on the Business Results table.
 
-Barbecue Season
+#### Barbecue Season
 
 **Frequency:** Unlimited **Prerequisite:** Beer Garden
 
 The spring and summertime months are perfect for outside cooking: a spit roast perhaps, or sausages chargrilled over coals. Each day that you spend on this activity grants a +2 bonus to your next roll on the Business Results table. Due to the risk of fire, double any losses that you accrue unless you've also paid for insurance.
 
-Banquet
+#### Banquet
 
 **Frequency:** 1/tenday **Prerequisite:** Feasting Hall
 
@@ -281,7 +280,7 @@ Laying on a banquet for the crust of society requires careful sourcing of fine f
 | 81-90       | Your event is a roaring success and your guests shower you with tips. Your business gains 3d10 x 5 gp and you gain a +10 bonus to your next roll on the Business Results table. |
 | 91-00       | This wondrous feast couldn't have gone better. You gain the benefit of both entries listed above this one (41-90). |
 
-Beer Festival
+#### Beer Festival
 
 **Frequency:** 1/tenday **Prerequisite:** Beer Engine
 
@@ -289,7 +288,7 @@ Celebrate local brewers by featuring their casks in a festival of beer drinking.
 
 However, heavy drinking invites damage. If you didn't take out preventative maintenance and extra security, you receive a repair bill equal to the sum of any matching dice you roll (e.g. rolling three 4's yields a repair bill of 12 gp).
 
-Brew Beer
+#### Brew Beer
 
 **Frequency:** No more than 5 concurrent batches **Prerequisite:** Brewery
 
@@ -297,14 +296,14 @@ Brewing your own ale is a sure-fire way to turn extra profits, assuming your bre
 
 | [[/r d100]] | Result                                                       |
 | ----------- | ------------------------------------------------------------ |
-| 01-10       | Yikes! Something went wrong with the fermentation and a dangerous mold formed on the surface. |
-| 11-20       | Ugh. Looks like you used contaminated yeast for this batch and all following batches. Any batches still fermenting are ruined. |
-| 21-40       | Not bad, but something's not quite right. Roll a d6. On a 1-3, the brew is just okay, and you turn no profit on it. On a 4-6, it's serviceable and your business earns 1d8 x 5 gp from selling it. |
-| 41-80       | It's a fine, fine brew. Your business earns 2d8 x 5 gp from selling it. |
-| 81-90       | Perfection! Your business earns 4d8 x 5 gp from selling this brew. Reroll any 1s you roll. |
-| 91-00       | You doubt you'll ever brew anything to equal this again. It's heaven in a glass. Your business earns 6d8 x 5 gp from selling the brew, but you can't use any downtime activities during the next tenday as you're too busy enjoying your own wares. |
+| 01-10       | Yikes! Something went wrong with the fermentation and a dangerous mold formed on the surface. (DC<5) |
+| 11-20       | Ugh. Looks like you used contaminated yeast for this batch and all following batches. Any batches still fermenting are ruined.(DC<10) |
+| 21-40       | Not bad, but something's not quite right. Roll a d6. On a 1-3, the brew is just okay, and you turn no profit on it. On a 4-6, it's serviceable and your business earns 1d8 x 5 gp from selling it.(DC<15) |
+| 41-80       | It's a fine, fine brew. Your business earns 2d8 x 5 gp from selling it.(DC<20) |
+| 81-90       | Perfection! Your business earns 4d8 x 5 gp from selling this brew. Reroll any 1s you roll.(DC<25) |
+| 91-00       | You doubt you'll ever brew anything to equal this again. It's heaven in a glass. Your business earns 6d8 x 5 gp from selling the brew, but you can't use any downtime activities during the next tenday as you're too busy enjoying your own wares.(DC<30) |
 
-Dance Night
+#### Dance Night
 
 **Frequency:** 1/tenday **Prerequisite:** Dancefloor
 
@@ -319,7 +318,7 @@ Turning your tavern into a dancehall improves your revenue but takes work. Each 
 | 81-90       | Your dance gets a positive write up in a local newsprint. Your business gains 4d8 x 5 gp and you gain a +20 bonus to your next roll on this table when using the same ingredients. |
 | 91-00       | Your once-in-a-lifetime event is spoken about for years to come. Gain 6d8 x 5 gp and a +20 bonus to your next roll on the Business Results table. |
 
-Distilling Spirits
+#### Distilling Spirits
 
 **Frequency:** No more than five concurrent batches **Prerequisite:** Distillery
 
@@ -334,31 +333,31 @@ Distilling your own gin or rum puts your business on the map and earns a tidy pr
 | 81-90       | Wow. This is sublime! Your business earns 4d10 x 5 gp from selling this batch, and you gain a +10 bonus to your next roll on this table when using the same ingredients. |
 | 91-00       | Drinking this gives you an epiphany that opens your mind to new ways of thinking. Your business earns 6d10 x 5 gp from selling the batch and you gain the benefit of an @Item[mWmrsWHSq9fsx6ud]{augury} spell. |
 
-Entertainment
+#### Entertainment
 
 **Frequency:** Unlimited **Prerequisite:** Stage
 
 Good entertainment attracts a crowd, but it can be hit and miss. Each day you spend on this activity costs 2gp. Roll a die for each day: on an odd result it adds a +1 bonus to your next roll on the Business Results table and on an even roll it adds a +3 bonus.
 
-Feast
+#### Feast
 
 **Frequency:** Unlimited **Prerequisite:** Kitchen
 
 The best taverns regularly offer a special menu of hearty grub to turn every meal into a feast. Each day that you spend on this activity costs 1 gp in ingredients and grants a +2 bonus to your next roll on the Business Results table.
 
-Information Gathering
+#### Information Gathering
 
 **Frequency:** 1 roll/tenday **Prerequisite:** Stage
 
 Opening your inn to travelers brings news from distant lands and rumors from the road. For every day you spend in this activity, there is a cumulative 5% chance that you benefit from the effects of a @Item[1hMSK8e6RJnjRqAK]{commune} spell, with the restriction that the questions you ask must feasibly be answerable through information gathering.
 
-Join the Staff
+#### Join the Staff
 
 **Frequency:** Unlimited **Prerequisite:** Taproom
 
 Being present for the day-to-day running of your taproom means you'll be on hand to deal with any issues your staff may struggle to resolve. Each day you spend working with your staff grants a cumulative 10% chance that you'll benefit from free Extra Security (see "Tavern Events").
 
-Make Contacts
+#### Make Contacts
 
 **Frequency:** 1 roll/tenday **Prerequisite:** Saloon Bar
 
@@ -373,13 +372,13 @@ A saloon bar attracts distinguished clientele who you can tap for useful contact
 | 81-90       | You earn a contact within a powerful organization: a guild, religious order, or government body such as the city watch, courts, or militia. Your DM determines your contact's sphere of influence. You can call on this contact once pull the strings within their own area of expertise. |
 | 91-00       | You earn a contact at the highest level of the aristocracy: for example, a member of the royal family, high council, or barony. You can call on this contact once gain any assistance your DM deems appropriate. |
 
-Marketing
+#### Marketing
 
 **Frequency:** Unlimited **Prerequisite:** Office
 
 Marketing can take several forms. You might print and distribute leaflets, put an advertisement in the local newspaper, or pay for the town crier to promote your tavern. Each day that you spend on this activity costs you 1d3 gp and grants a +2 bonus to your next business results roll.
 
-Rare ingredients
+#### Rare ingredients
 
 **Frequency:** max. 10 batches **Prerequisite:** Larder
 
@@ -387,13 +386,13 @@ Superior food and beverages prompt patrons to spend more and spend more often. E
 
 You can spend one batch of rare ingredients to add a +10% bonus to any one roll on the Banqueting, Brewing Beer, or Distilling Spirits tables, or to grant a +4 bonus to your next business results roll when using the Feast downtime activity.
 
-Recruit Hirelings
+#### Recruit Hirelings
 
 **Frequency:** Unlimited **Prerequisite:** Guest Bedrooms
 
 As guests come and go, you'll brush shoulders with a variety of skilled professionals: mercenaries, artisans, healers, armorers, and many more. Chapter 5: "Equipment" of the Player's Handbook contains costs for recruiting hirelings. Each day you spend on this activity lets you recruit a hireling of your choice for any term of service you can afford. Hirelings recruited via this activity are always trustworthy and reliable.
 
-Smuggling
+#### Smuggling
 
 **Frequency:** Unlimited **Prerequisite:** Cellar
 
@@ -408,13 +407,13 @@ A cellar can store more than just booze. If you open your tavern's trapdoor to c
 | 81-90       | The local cartels approve of your operation and send you a small gift of coin. Gain 1d4 x 5 gp. |
 | 91-00       | One of the local crime lords invites you to a meeting to discuss business. The DM determines which faction they represent. If you impress them, you gain a +20 bonus to your next roll on this table. |
 
-Social Connections
+#### Social Connections
 
 **Frequency:** 1 roll/tenday **Prerequisite:** Coach House
 
 A coach house attracts a higher caliber of guest. Schmoozing with these travelers increases your chances of climbing the social ladder. For every day you spend in this activity, there is a cumulative 5% chance that you'll receive an invitation to dine with a local lord or dignitary in your region. Consult with your DM to determine how this meeting plays out.
 
-Spying
+#### Spying
 
 **Frequency:** 1 roll/tenday **Prerequisite:** Snug
 
@@ -428,13 +427,3 @@ Your snug attracts guests who sometimes have something to hide. For every day yo
 | 41-80       | You learn an interesting secret about another business in your vicinity. |
 | 81-90       | The secret relates to a rival faction or enemy.              |
 | 91-00       | You learn an interesting secret about a government official, high-ranking cleric, or guildmaster in your area. |
-
-Tavernkeeper's Spotlight: Molou's Distillery
-
-The city of Stormreach is a major site of adventure and intrigue in the world of Eberron. Situated on the continent of Xen'drik to the south of Khorvaire, this ancient ruin is now home to explorers of many nations–and Molou's Distillery.
-
-The distillery is one of the largest employers in Stormreach, due in no small part to the huge surge in popularity that their main product, a type of gin named kurveya, has been enjoying. This potent potable has garnered fine imbibers from as far away as Sharn and the southern coast of Khorvaire. Such demand keeps the distillers extremely busy, so they've simplified their in-house sales down to just the one drink.
-
-Even so, few people choose to drink the sickly-sweet smelling liquor direct from the distillery. Those who do often have their own demons or nightmares to escape, and once suitably pliable have been known to share their stories of what lies in the jungle outside the city. They swear that the Traveler's Curse is a given and to disrespect the jungle and its secrets is a fool's decision.
-
-Molou's Distillery first featured in *Secrets of Xen'drik* (2006) by Keith Baker, Amber Scott, and Jason Bulmahn.
