@@ -1,4 +1,4 @@
-Les principes d'économie et tables de prix sont tirés d'*Adventurer Conqueror King System* (ACKS). Il repose sur l'idée qu'un paysan de base consomme 1 pièce d'or par mois (1gp/m), et que les taux d'intérêt **mensuel** est de 3%. 
+2Les principes d'économie et tables de prix sont tirés d'*Adventurer Conqueror King System* (ACKS). Il repose sur l'idée qu'un paysan de base consomme 1 pièce d'or par mois (1gp/m), et que les taux d'intérêt **mensuel** est de 3%. 
 
 Les villes et villages sont catégorisés de I à VI, I ayant le marché le plus développé. Waterdeep est class I.
 
@@ -260,20 +260,20 @@ Les villes et villages sont catégorisés de I à VI, I ayant le marché le plus
 | Level 3                               | 1d10                          | 1d3      | 1 (85%)   | 1 (33%)   | 1 (15%) | 1 (5%)   |
 | Level 4                               | 1d6                           | 1d2      | 1 (45%)   | 1 (15%)   | 1 (5%)  | None     |
 
-| Spell Availability by Market |         |         |          |           |          |         |          |
-| ---------------------------- | ------- | ------- | -------- | --------- | -------- | ------- | -------- |
-| Spell Type and Level         | Cost    | Class I | Class II | Class III | Class IV | Class V | Class VI |
-| Divine–1st level             | 10gp    | 2d3x100 | 4d4x10   | 5d10      | 4d6      | 2d6     | 1d6      |
-| Divine–2nd level             | 40gp    | 8d10    | 4d6      | 2d6       | 2d3      | 1d3     | 1d2      |
-| Divine–3rd level             | 150gp   | 2d6     | 2d3      | 2d3       | 1d2      | 1d2-1   | -        |
-| Divine–4th level             | 325gp   | 2d6     | 2d3      | 2d3       | 1d2      | 1d2-1   | -        |
-| Divine–5th level             | 500gp   | 1d6     | 1d4      | 1d4       | 1d2-1    | -       | -        |
-| Arcane–1st level             | 5gp     | 2d4x100 | 2d10x10  | 2d4x10    | 3d10     | 2d6     | 1d4      |
-| Arcane–2nd level             | 20gp    | 2d6x10  | 6d6      | 2d6       | 2d4      | 1d4     | 1d2      |
-| Arcane–3rd level             | 75gp    | 4d6     | 2d6      | 2d3       | 1d4      | 1d2     | -        |
-| Arcane–4th level             | 325gp   | 2d4     | 2d3      | 1d4       | 1d2      | 1d2-1   | -        |
-| Arcane–5th level             | 1,250gp | 1d4     | 1d4      | 1d2       | -        | -       | -        |
-| Arcane–6th level             | 4,500gp | 1d3     | 1d3      | 1d2-1     | -        | -       | -        |
+| Spell Availability by Market |          |         |          |           |          |         |          |
+| ---------------------------- | -------- | ------- | -------- | --------- | -------- | ------- | -------- |
+| Spell Type and Level         | Cost     | Class I | Class II | Class III | Class IV | Class V | Class VI |
+| Divine–1st level             | 50gp     | 2d3x100 | 4d4x10   | 5d10      | 4d6      | 2d6     | 1d6      |
+| Divine–2nd level             | 200gp    | 8d10    | 4d6      | 2d6       | 2d3      | 1d3     | 1d2      |
+| Divine–3rd level             | 750gp    | 2d6     | 2d3      | 2d3       | 1d2      | 1d2-1   | -        |
+| Divine–4th level             | 1625gp   | 2d6     | 2d3      | 2d3       | 1d2      | 1d2-1   | -        |
+| Divine–5th level             | 2500gp   | 1d6     | 1d4      | 1d4       | 1d2-1    | -       | -        |
+| Arcane–1st level             | 25gp     | 2d4x100 | 2d10x10  | 2d4x10    | 3d10     | 2d6     | 1d4      |
+| Arcane–2nd level             | 100gp    | 2d6x10  | 6d6      | 2d6       | 2d4      | 1d4     | 1d2      |
+| Arcane–3rd level             | 375gp    | 4d6     | 2d6      | 2d3       | 1d4      | 1d2     | -        |
+| Arcane–4th level             | 1625gp   | 2d4     | 2d3      | 1d4       | 1d2      | 1d2-1   | -        |
+| Arcane–5th level             | 6,250gp  | 1d4     | 1d4      | 1d2       | -        | -       | -        |
+| Arcane–6th level             | 22,500gp | 1d3     | 1d3      | 1d2-1     | -        | -       | -        |
 
 
 
