@@ -1,0 +1,3816 @@
+{
+  "_id": "VAkepmEyZkIiCMgg",
+  "name": "Gurdis Rumnaheim",
+  "type": "character",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 20,
+        "proficient": 1,
+        "min": 3,
+        "mod": 4
+      },
+      "dex": {
+        "value": 15,
+        "proficient": 1,
+        "min": 3,
+        "mod": 2
+      },
+      "con": {
+        "value": 16,
+        "proficient": 1,
+        "min": 3,
+        "mod": 3
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0,
+        "min": 3
+      },
+      "wis": {
+        "value": 13,
+        "proficient": 0,
+        "min": 3,
+        "mod": 1
+      },
+      "cha": {
+        "value": 12,
+        "proficient": 0,
+        "min": 3,
+        "mod": 1
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 20,
+        "min": 0,
+        "type": "Number",
+        "label": "Armor Class"
+      },
+      "hp": {
+        "value": 37,
+        "min": 0,
+        "max": 37,
+        "temp": null,
+        "tempmax": null
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 2
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "spellcasting": "",
+      "speed": {
+        "_deprecated": true,
+        "value": "25 ft",
+        "special": ""
+      },
+      "death": {
+        "success": 0,
+        "failure": 0
+      },
+      "encumbrance": {
+        "value": null,
+        "max": null
+      },
+      "exhaustion": "1",
+      "inspiration": false,
+      "hd": {
+        "value": 1,
+        "min": 1,
+        "max": 1
+      },
+      "prof": 2,
+      "spelldc": 10,
+      "deathsaves1": false,
+      "deathsaves2": false,
+      "deathsaves3": false,
+      "deathsavef1": false,
+      "deathsavef2": false,
+      "deathsavef3": false,
+      "exh1": false,
+      "exh2": false,
+      "exh3": false,
+      "exh4": false,
+      "exh5": false,
+      "exh6": false
+    },
+    "details": {
+      "biography": {
+        "value": "<h1>Histoire</h1>\n<h4>Apres des années de guerre de clans dans les montagnes de Star Mounts, Gurdis s'était forgee une solide reputation de guerriere chevronee mais la guerre pris fin et Gurdis pris sa retraite de guerriere.</h4>\n<h4>Gurdis qui passait deja beaucoup de temps dans la taverne du village joigna l'utile a l'agreable en mariant le brasseur et en apprenant un nouveau metier: brasseuse. Un jour froid d'hiver, les Orcs ont attaqué le village. Gurdis qui passait deja beaucoup de temps dans la taverne du village joigna l'utile a l'agreable en mariant le brasseur et en apprenant un nouveau metier: brasseuse. Un jour froid d'hiver, les Orcs ont attaqué le village.</h4>\n<h4>Apres une bataille sanglante, Gurdis se retrouva la seule survivante au milieu de son village reduit en cendres. Elle decida de quitter les montagnes de sa jeunesse et partit vers le sud en vendant ses services d'armes au plus offrant. Apres quelques années à rouler sa bosse de mercenaire, Gurdis voudrait poser les armes pour redevenir brasseuses et reconnaitre la vie d'un clan. Mais tout l'or gagné dans ses contrats de mercenaire passe dans son penchant pour la bouteille. Gurdis continue donc encore et encore à offrir ses services de guerriere.&nbsp; &nbsp;&nbsp;</h4>\n<h1>Guild Artisan / Guild Merchant</h1>\n<p>You are a member of an artisan’s guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right.</p>\n<h2>Guild Membership</h2>\n<p>As an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings.</p>\n<p>Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. Such connections might require the donation of money or magic items to the guild’s coffers.</p>\n<p>You must pay dues of 5 gp per month to the guild. If you miss payments, you must make up back dues to remain in the guild’s good graces.</p>",
+        "public": "<h1>Guild Artisan / Guild Merchant</h1><p>You are a member of an artisan’s guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in <span class=\"No-Break\">your own right.</span></p><h2>Guild Membership</h2><p class=\"Core-Styles_Core-Body\">As an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies<span class=\"No-Break\">, </span><span class=\"No-Break\">or hirelings.</span></p>\n<p class=\"Core-Styles_Core-Body\">Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. Such connections might require the donation of money or magic items to the g<span class=\"No-Break\">uild’s coffers.</span></p>\n<p class=\"Core-Styles_Core-Body\">You must pay dues of 5 gp per month to the guild. If you miss payments, you must make up back dues to remain in the guild<span class=\"No-Break\">’s good graces.</span></p><h1>Traits</h1><h2>Personality Traits</h2><p>I’m rude to people who lack my commitment to hard work and fair play.</p><h2>Ideals</h2><p>Community. It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)</p>"
+      },
+      "alignment": "Loyal Good",
+      "race": "Mountain Dwarf",
+      "background": "Guild Artisan",
+      "xp": {
+        "value": 3418,
+        "min": 0,
+        "max": 2700,
+        "pct": 38.370370370370374
+      },
+      "appearance": "",
+      "trait": "<p>I’m rude to people who lack my commitment to hard work and fair play. Se prepare toujours au pire et ses mouvements sont rapides et precis.&nbsp;</p><br>Migrated Content:<p>I’m rude to people who lack my commitment to hard work and fair play. Se prepare toujours au pire et ses mouvements sont rapides et precis.&nbsp;</p>",
+      "ideal": "<p>I’m rude to people who lack my commitment to hard work and fair play. Se prepare toujours au pire et ses mouvements sont rapides et precis.&nbsp;</p><br>Migrated Content:<p>Community. It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)&nbsp;</p>",
+      "bond": "<p>personne ne devrait endurer les epreuves que j'ai traverse</p><br>Migrated Content:<p>personne ne devrait endurer les epreuves que j'ai traverse</p>",
+      "flaw": "<p>j'aime beaucoup trop la biere, le vin et tout autre alcool !&nbsp;</p><br>Migrated Content:<p>j'aime beaucoup trop la biere, le vin et tout autre alcool !&nbsp;</p>",
+      "notesname": "",
+      "notes1name": "",
+      "notes2name": "",
+      "notes3name": "",
+      "notes4name": "",
+      "description": {
+        "value": ""
+      },
+      "notes": {
+        "value": "<p>Arme &agrave; 23 mains qd 1 ou 2 un d&eacute; de d&eacute;gat pour une attaque avec 1 arme de corps &agrave; corps tenue &agrave; 2 mains</p>\n<p>&nbsp;</p>\n<p>Level 2: sursaut d'activit&eacute; (1 utilisation puis repos) +2</p>\n<p>Level3: Archytype martial - maitre d'armes +2</p>\n<p>3 manouevres:&nbsp;</p>\n<p>- attaque menacante</p>\n<p>- parade</p>\n<p>- riposte</p>"
+      },
+      "notes1": {
+        "value": ""
+      },
+      "notes2": {
+        "value": ""
+      },
+      "notes3": {
+        "value": ""
+      },
+      "notes4": {
+        "value": ""
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "poison"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "senses": "Darkvision: 60 ft.",
+      "languages": {
+        "value": [
+          "common",
+          "dwarvish",
+          "goblin"
+        ],
+        "custom": ""
+      },
+      "weaponProf": {
+        "value": [
+          "sim",
+          "mar"
+        ],
+        "custom": "Battleaxe, Handaxe, Light Hammer, Warhammer"
+      },
+      "armorProf": {
+        "value": [
+          "lgt",
+          "med",
+          "hvy",
+          "shl"
+        ],
+        "custom": ""
+      },
+      "toolProf": {
+        "value": [],
+        "custom": "Brewer's Supplies;Alchemist's Supplies"
+      }
+    },
+    "currency": {
+      "pp": 1,
+      "gp": 4,
+      "ep": 1,
+      "sp": 4,
+      "cp": 6
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "type": "Number",
+        "label": "Acrobatics",
+        "mod": 2
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "type": "Number",
+        "label": "Animal Handling",
+        "mod": 1
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "type": "Number",
+        "label": "Arcana"
+      },
+      "ath": {
+        "value": 1,
+        "ability": "str",
+        "type": "Number",
+        "label": "Athletics",
+        "mod": 6
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "type": "Number",
+        "label": "Deception",
+        "mod": 1
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "type": "Number",
+        "label": "History"
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis",
+        "type": "Number",
+        "label": "Insight",
+        "mod": 3
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "type": "Number",
+        "label": "Intimidation",
+        "mod": 1
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "type": "Number",
+        "label": "Investigation"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "type": "Number",
+        "label": "Medicine",
+        "mod": 1
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "type": "Number",
+        "label": "Nature"
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "type": "Number",
+        "label": "Perception",
+        "mod": 1
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "type": "Number",
+        "label": "Performance",
+        "mod": 1
+      },
+      "per": {
+        "value": 1,
+        "ability": "cha",
+        "type": "Number",
+        "label": "Persuasion",
+        "mod": 3
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "type": "Number",
+        "label": "Religion"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "type": "Number",
+        "label": "Sleight of Hand",
+        "mod": 2
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "type": "Number",
+        "label": "Stealth",
+        "mod": 2
+      },
+      "sur": {
+        "value": 1,
+        "ability": "wis",
+        "type": "Number",
+        "label": "Survival",
+        "mod": 3
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell0": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "primary": {
+        "value": 1,
+        "max": 1,
+        "sr": true,
+        "lr": true,
+        "label": "Second Wind"
+      },
+      "secondary": {
+        "value": 1,
+        "max": 1,
+        "sr": true,
+        "lr": true,
+        "label": "Action surge"
+      },
+      "tertiary": {
+        "value": 4,
+        "max": 4,
+        "sr": true,
+        "lr": true,
+        "label": "Superiority Dice"
+      },
+      "fourth": {
+        "label": "",
+        "value": null,
+        "max": null,
+        "sr": false,
+        "lr": false
+      },
+      "count": {
+        "label": "Resource Count",
+        "value": null,
+        "max": 4,
+        "sr": false,
+        "lr": false
+      }
+    }
+  },
+  "sort": 600000,
+  "flags": {
+    "vtta": {
+      "dndbeyond": {
+        "url": "https://www.dndbeyond.com/profile/Selyam/characters/28346412",
+        "totalLevels": 1,
+        "proficiencies": [
+          {
+            "name": "Battleaxe"
+          },
+          {
+            "name": "Handaxe"
+          },
+          {
+            "name": "Light Hammer"
+          },
+          {
+            "name": "Warhammer"
+          },
+          {
+            "name": "Brewer's Supplies"
+          },
+          {
+            "name": "Light Armor"
+          },
+          {
+            "name": "Medium Armor"
+          },
+          {
+            "name": "Light Armor"
+          },
+          {
+            "name": "Medium Armor"
+          },
+          {
+            "name": "Heavy Armor"
+          },
+          {
+            "name": "Shields"
+          },
+          {
+            "name": "Simple Weapons"
+          },
+          {
+            "name": "Martial Weapons"
+          },
+          {
+            "name": "Strength Saving Throws"
+          },
+          {
+            "name": "Constitution Saving Throws"
+          },
+          {
+            "name": "Athletics"
+          },
+          {
+            "name": "Survival"
+          },
+          {
+            "name": "Insight"
+          },
+          {
+            "name": "Persuasion"
+          },
+          {
+            "name": "Alchemist's Supplies"
+          }
+        ],
+        "roUrl": "https://dndbeyond.com/characters/28346412"
+      }
+    },
+    "dnd5e": {
+      "initiativeHalfProf": false,
+      "weaponCriticalThreshold": 20
+    },
+    "obsidian": {
+      "attributes": {
+        "ac": {
+          "ability1": "dex",
+          "base": 10
+        },
+        "conditions": {},
+        "death": {
+          "adv": false,
+          "bonus": 0,
+          "threshold": 10
+        },
+        "hd": {},
+        "hpMaxMod": 0,
+        "init": {
+          "ability": "dex"
+        },
+        "senses": {},
+        "speed": {
+          "walk": {
+            "override": 25
+          }
+        }
+      },
+      "defenses": {
+        "damage": [],
+        "conditions": [],
+        "disease": false,
+        "sleep": false
+      },
+      "details": {
+        "gender": null,
+        "subrace": null,
+        "milestone": false,
+        "tags": {}
+      },
+      "order": {
+        "equipment": {
+          "root": [],
+          "containers": []
+        }
+      },
+      "saves": {
+        "bonus": 0
+      },
+      "sheet": {
+        "roll": "reg"
+      },
+      "skills": {
+        "bonus": 0,
+        "joat": false,
+        "custom": [],
+        "tools": [],
+        "passives": [
+          "prc",
+          "inv"
+        ]
+      },
+      "spells": {
+        "slots": {}
+      },
+      "traits": {
+        "profs": {
+          "custom": {
+            "armour": [],
+            "weapons": [],
+            "langs": []
+          }
+        }
+      },
+      "version": 7
+    },
+    "core": {
+      "sheetClass": ""
+    },
+    "dynamiceffects": {
+      "activeEffects": []
+    },
+    "magicitems": {},
+    "alt5e": {
+      "version": "1.3.0"
+    },
+    "tidy5e-sheet": {
+      "useCoreTraits": true,
+      "traits-compressed": true
+    },
+    "5e-training": {
+      "trainingItems": [
+        {
+          "name": "Entrainement Sulei",
+          "ability": "str",
+          "progress": 146,
+          "completionAt": 300,
+          "progressionStyle": "ability"
+        }
+      ]
+    },
+    "VariantEncumbrance": {
+      "speed": 25,
+      "weight": 75.72,
+      "tier": 0
+    },
+    "exportSource": {
+      "world": "dragon-heist",
+      "system": "dnd5e",
+      "coreVersion": "0.7.7",
+      "systemVersion": "1.1.1"
+    }
+  },
+  "img": "tokens/Gurdis%20Rumnaheim.Avatar.VAkepmEyZkIiCMgg.png?t=1589055649629",
+  "token": {
+    "flags": {},
+    "name": "Gurdis Rumnaheim",
+    "displayName": 40,
+    "img": "tokens/Gurdis%20Rumnaheim.Token.VAkepmEyZkIiCMgg.png?t=1589055649629",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": true,
+    "dimSight": 60,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 360,
+    "lightAngle": 360,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "VAkepmEyZkIiCMgg",
+    "actorLink": true,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "cOOvmPe0imzAjOtV",
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "Instead of using a weapon to make a melee weapon attack, you can use an unarmed strike: a punch, kick, head-butt, or similar forceful blow (none of which count as weapons). On a hit, an unarmed strike deals bludgeoning damage equal to 1 + your Strength modifier. You are proficient with your unarmed strikes.",
+          "chat": "Instead of using a weapon to make a melee weapon attack, you can use an unarmed strike: a punch, kick, head-butt, or similar forceful blow (none of which count as weapons). On a hit, an unarmed strike deals bludgeoning damage equal to 1 + your Strength modifier. You are proficient with your unarmed strikes.",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1 + @mod",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "sort": 100000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Martial Arts"
+          }
+        },
+        "obsidian": {
+          "category": "simple",
+          "type": "melee",
+          "mode": "melee",
+          "tags": {},
+          "magical": false,
+          "effects": [
+            {
+              "name": "",
+              "uuid": "b2199108-523a-4577-9838-fdfa63948cf4",
+              "components": [
+                {
+                  "type": "attack",
+                  "uuid": "8e1ccf84-8727-46d8-846f-83332f10352d",
+                  "attack": "melee",
+                  "category": "weapon",
+                  "ability": "str",
+                  "bonus": 0,
+                  "crit": 20,
+                  "proficient": true,
+                  "reach": null,
+                  "range1": null,
+                  "range2": null,
+                  "target": ""
+                },
+                {
+                  "type": "damage",
+                  "uuid": "1eea94bd-025d-4906-b3bb-03074de0a57b",
+                  "calc": "fixed",
+                  "ndice": 1,
+                  "die": 4,
+                  "ability": "str",
+                  "bonus": 1,
+                  "damage": "blg",
+                  "versatile": false
+                }
+              ]
+            }
+          ],
+          "version": 7
+        },
+        "mess": {
+          "templateTexture": ""
+        },
+        "magicitems": {
+          "charges": "0",
+          "chargeType": "c1",
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "enabled": false,
+          "destroy": false,
+          "rechargeable": false
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_relics_totemofrage.jpg",
+      "effects": []
+    },
+    {
+      "_id": "ZpzgSNSghNHmpni9",
+      "name": "Crossbow, Light",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<p>Proficiency with a light crossbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>",
+          "chat": "<p>Proficiency with a light crossbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>",
+          "unidentified": "Crossbow, Light"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 5,
+        "price": 25,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 80,
+          "long": 320,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "ammo",
+          "target": "OrsIOjcHPR6OnwE8",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d8 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleR",
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "hvy": false,
+          "lgt": false,
+          "rel": false,
+          "fir": true,
+          "rch": false,
+          "spc": false,
+          "thr": false,
+          "two": true,
+          "ver": false,
+          "foc": false,
+          "lod": false,
+          "ret": false
+        },
+        "proficient": true
+      },
+      "sort": 500000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Crossbow, Light",
+            "damage": {
+              "parts": []
+            },
+            "classFeatures": []
+          }
+        },
+        "betterRolls5e": {
+          "quickDamage": {
+            "context": {
+              "0": ""
+            },
+            "value": {
+              "0": true
+            },
+            "altValue": {
+              "0": true
+            }
+          },
+          "quickVersatile": {
+            "altValue": true
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "destroy": false,
+          "rechargeable": false
+        },
+        "obsidian": {
+          "category": "simple",
+          "type": "ranged",
+          "mode": "melee",
+          "tags": {
+            "twohanded": true
+          },
+          "magical": false,
+          "effects": [
+            {
+              "name": "",
+              "uuid": "652aa2be-0035-4daa-8c6e-3c8b3fefe3c9",
+              "components": [
+                {
+                  "type": "attack",
+                  "uuid": "2021e828-62b7-4641-9f4d-a736409030ae",
+                  "attack": "melee",
+                  "category": "weapon",
+                  "ability": "dex",
+                  "bonus": 0,
+                  "crit": 20,
+                  "proficient": true,
+                  "reach": null,
+                  "range1": null,
+                  "range2": null,
+                  "target": ""
+                },
+                {
+                  "type": "damage",
+                  "uuid": "4903cd03-1b5d-4e86-b488-44b6cbee266c",
+                  "calc": "formula",
+                  "ndice": 1,
+                  "die": 8,
+                  "ability": "dex",
+                  "bonus": 0,
+                  "damage": "prc",
+                  "versatile": false
+                }
+              ]
+            }
+          ],
+          "version": 7
+        },
+        "mess": {
+          "templateTexture": ""
+        },
+        "favtab": {
+          "isFavorite": true
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_weapon_crossbow_02.jpg",
+      "effects": []
+    },
+    {
+      "_id": "uM7SfneiJCQG9KIl",
+      "name": "Warhammer",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<p>Proficiency with a warhammer allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>",
+          "chat": "<p>Proficiency with a warhammer allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>",
+          "unidentified": "Warhammer"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 2,
+        "price": 15,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 5,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d8 + @mod",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": "1d10r<=2 + @mod"
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialM",
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "hvy": false,
+          "lgt": false,
+          "rel": false,
+          "fir": false,
+          "rch": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": true,
+          "foc": false,
+          "lod": false,
+          "ret": false,
+          "mgc": false
+        },
+        "proficient": true
+      },
+      "sort": 600000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Warhammer",
+            "damage": {
+              "parts": []
+            },
+            "classFeatures": [
+              "greatWeaponFighting"
+            ]
+          }
+        },
+        "betterRolls5e": {
+          "quickDamage": {
+            "context": {
+              "0": ""
+            },
+            "value": {
+              "0": true
+            },
+            "altValue": {
+              "0": true
+            }
+          },
+          "quickVersatile": {
+            "altValue": true
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "destroy": false,
+          "rechargeable": false
+        },
+        "obsidian": {
+          "category": "martial",
+          "type": "melee",
+          "mode": "melee",
+          "tags": {
+            "versatile": true
+          },
+          "magical": false,
+          "effects": [
+            {
+              "name": "",
+              "uuid": "8be00871-951b-487e-b675-c905ea6da903",
+              "components": [
+                {
+                  "type": "attack",
+                  "uuid": "bef8b63c-24d5-4bfb-b5eb-dfc7e3b9b4bb",
+                  "attack": "melee",
+                  "category": "weapon",
+                  "ability": "str",
+                  "bonus": 0,
+                  "crit": 20,
+                  "proficient": true,
+                  "reach": null,
+                  "range1": null,
+                  "range2": null,
+                  "target": ""
+                },
+                {
+                  "type": "damage",
+                  "uuid": "2ffa8b60-32a6-498b-881f-e84a6c5a0951",
+                  "calc": "formula",
+                  "ndice": 1,
+                  "die": 8,
+                  "ability": "str",
+                  "bonus": 0,
+                  "damage": "blg",
+                  "versatile": false
+                },
+                {
+                  "type": "damage",
+                  "uuid": "eea8a95e-98f1-4ef6-82e5-1e7b1feb7ad2",
+                  "calc": "fixed",
+                  "ndice": 1,
+                  "die": 4,
+                  "ability": "str",
+                  "bonus": 0,
+                  "damage": "blg",
+                  "versatile": true
+                }
+              ]
+            }
+          ],
+          "version": 7
+        },
+        "mess": {
+          "templateTexture": ""
+        },
+        "favtab": {
+          "isFavorite": true
+        },
+        "dae": {
+          "activeEquipped": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_hammer_06.jpg",
+      "effects": []
+    },
+    {
+      "_id": "kNC3invCUBPYrheC",
+      "name": "Crossbow Bolts",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p>Crossbow bolts are&nbsp;used with&nbsp;a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</p>",
+          "chat": "<p>Crossbow bolts are&nbsp;used with&nbsp;a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</p>",
+          "unidentified": "Gear"
+        },
+        "source": "",
+        "quantity": 20,
+        "weight": 0.075,
+        "price": 1,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true
+      },
+      "sort": 700000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Gear"
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_ammo_arrow_01.jpg",
+      "effects": []
+    },
+    {
+      "_id": "QtsJGDGJLYKTr2Ws",
+      "name": "Backpack",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p>A backpack is a leather pack carried on the back, typically with straps to secure it. A backpack can hold&nbsp;1 cubic foot/ 30 pounds of gear.</p>\n<p>You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>",
+          "chat": "<p>A backpack is a leather pack carried on the back, typically with straps to secure it. A backpack can hold&nbsp;1 cubic foot/ 30 pounds of gear.</p>\n<p>You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>",
+          "unidentified": "Gear"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 5,
+        "price": 2,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true
+      },
+      "sort": 800000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Gear"
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_bag_29.jpg",
+      "effects": []
+    },
+    {
+      "_id": "LQVetZKjc3sVt7vz",
+      "name": "Bedroll",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p>You never know where you’re going to sleep, and a bedroll helps you get better sleep in a hayloft or on the cold ground. A bedroll consists of bedding and a blanket thin enough to be rolled up and tied. In an emergency, it can double as a stretcher.</p>",
+          "chat": "<p>You never know where you’re going to sleep, and a bedroll helps you get better sleep in a hayloft or on the cold ground. A bedroll consists of bedding and a blanket thin enough to be rolled up and tied. In an emergency, it can double as a stretcher.</p>",
+          "unidentified": "Gear"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 7,
+        "price": 1,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true
+      },
+      "sort": 900000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Gear"
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_emberweavecloth_01.jpg",
+      "effects": []
+    },
+    {
+      "_id": "6fG98nfaKSjD2Nlu",
+      "name": "Clothes, Traveler's",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p>This set of clothes could consist of boots, a wool skirt or breeches, a sturdy belt, a shirt (perhaps with a vest or jacket), and an ample cloak with a hood.</p>",
+          "chat": "<p>This set of clothes could consist of boots, a wool skirt or breeches, a sturdy belt, a shirt (perhaps with a vest or jacket), and an ample cloak with a hood.</p>",
+          "unidentified": "Gear"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 4,
+        "price": 2,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true
+      },
+      "sort": 1000000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Gear"
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_cloth_43.jpg",
+      "effects": []
+    },
+    {
+      "_id": "qUBrRErV7RiuXmsE",
+      "name": "Mess Kit",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.</p>",
+          "chat": "<p>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.</p>",
+          "unidentified": "Gear"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 1,
+        "price": 0.2,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true
+      },
+      "sort": 1100000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Gear"
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/trade_cooking_2.jpg",
+      "effects": []
+    },
+    {
+      "_id": "S3EImmlHVDAt94V6",
+      "name": "Rations (1 day)",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>",
+          "chat": "<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>",
+          "unidentified": "Gear"
+        },
+        "source": "",
+        "quantity": 10,
+        "weight": 2,
+        "price": 0.5,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true
+      },
+      "sort": 1200000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Gear"
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_food_cooked_ribsandshrimp.jpg",
+      "effects": []
+    },
+    {
+      "_id": "31ub4PeTLjU3KwGI",
+      "name": "Rope, Hempen (50 feet)",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p>Rope,&nbsp;has 2 hit points and can be burst with a DC 17 Strength check.</p>",
+          "chat": "<p>Rope,&nbsp;has 2 hit points and can be burst with a DC 17 Strength check.</p>",
+          "unidentified": "Gear"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 10,
+        "price": 1,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true
+      },
+      "sort": 1300000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Gear"
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_rope_01.jpg",
+      "effects": []
+    },
+    {
+      "_id": "Ff7wXyz3O72ph5nk",
+      "name": "Tinderbox",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch -- or anything else with abundant, exposed fuel -- takes an action. Lighting any other fire takes 1 minute.</p>\n<p>&nbsp;</p>",
+          "chat": "<p>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch -- or anything else with abundant, exposed fuel -- takes an action. Lighting any other fire takes 1 minute.</p>\n<p>&nbsp;</p>",
+          "unidentified": "Gear"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 1,
+        "price": 0.5,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true
+      },
+      "sort": 1400000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Gear"
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_matchbook.jpg",
+      "effects": []
+    },
+    {
+      "_id": "Q8Kiv3HLCpcuivza",
+      "name": "Torch",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</p>",
+          "chat": "<p>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</p>",
+          "unidentified": "Gear"
+        },
+        "source": "",
+        "quantity": 10,
+        "weight": 1,
+        "price": 0.01,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true,
+        "damage": {
+          "parts": []
+        }
+      },
+      "sort": 1500000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Gear"
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_torch_lit.jpg",
+      "effects": []
+    },
+    {
+      "_id": "8VBrY8toXqWUm6Js",
+      "name": "Waterskin",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p>A waterskin can hold&nbsp;4 pints of liquid.</p>",
+          "chat": "<p>A waterskin can hold&nbsp;4 pints of liquid.</p>",
+          "unidentified": "Gear"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 5,
+        "price": 0.2,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true
+      },
+      "sort": 1600000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Gear"
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_drink_waterskin_12.jpg",
+      "effects": []
+    },
+    {
+      "_id": "q7QYzOK7y70Gjau0",
+      "name": "Brewer's Supplies",
+      "type": "tool",
+      "data": {
+        "description": {
+          "value": "<p>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+          "chat": "<p>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+          "unidentified": "Gear"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 9,
+        "price": 20,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true,
+        "ability": "dex",
+        "chatFlavor": "",
+        "proficient": 1,
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "damage": {
+          "parts": []
+        }
+      },
+      "sort": 1700000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Gear"
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_cask_02.jpg",
+      "effects": []
+    },
+    {
+      "_id": "CsJnWkznJ9s0X6Zy",
+      "name": "fighter",
+      "type": "class",
+      "data": {
+        "description": {
+          "value": "<p>A master of martial combat, skilled with a variety of weapons and armor</p>\n<p class=\"characters-statblock\" style=\"font-family: Roboto Condensed; font-size: 14px\"><strong>Hit Die:</strong> d10<br><strong>Primary Ability:</strong> Strength or Dexterity<br><strong>Saves:</strong> Strength &amp; Constitution</p>",
+          "chat": "<p>A master of martial combat, skilled with a variety of weapons and armor</p>\n<p class=\"characters-statblock\" style=\"font-family: Roboto Condensed; font-size: 14px\"><strong>Hit Die:</strong> d10<br><strong>Primary Ability:</strong> Strength or Dexterity<br><strong>Saves:</strong> Strength &amp; Constitution</p>",
+          "unidentified": false
+        },
+        "source": "",
+        "levels": 4,
+        "subclass": "Battle Master",
+        "hitDice": "d10",
+        "hitDiceUsed": 2,
+        "skills": {
+          "number": 2,
+          "choices": [],
+          "value": [
+            "ath",
+            "sur"
+          ]
+        },
+        "spellcasting": "none",
+        "damage": {
+          "parts": []
+        }
+      },
+      "sort": 2700000,
+      "flags": {
+        "obsidian": {
+          "spellcasting": {
+            "enabled": true
+          },
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/classicon_warrior.jpg",
+      "effects": []
+    },
+    {
+      "_id": "YRHHcqXSTPplJ3bF",
+      "name": "Hit Points",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Dice: </span></strong>1d10 per fighter level<br><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Points at 1st Level: </span></strong>10 + your Constitution modifier<br><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Points at Higher Levels: </span></strong>1d10 (or 6) + your Constitution modifier per fighter level after 1st</p>",
+          "chat": "<p><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Dice: </span></strong>1d10 per fighter level<br><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Points at 1st Level: </span></strong>10 + your Constitution modifier<br><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Points at Higher Levels: </span></strong>1d10 (or 6) + your Constitution modifier per fighter level after 1st</p>",
+          "unidentified": "<p><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Dice: </span></strong>1d10 per fighter level<br><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Points at 1st Level: </span></strong>10 + your Constitution modifier<br><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Points at Higher Levels: </span></strong>1d10 (or 6) + your Constitution modifier per fighter level after 1st</p>"
+        },
+        "source": "Fighter",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 2800000,
+      "flags": {
+        "obsidian": {
+          "source": {
+            "type": "other"
+          },
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/petbattle_health.jpg",
+      "effects": []
+    },
+    {
+      "_id": "XKqBvrPX7oqiLtdm",
+      "name": "Darkvision",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>",
+          "chat": "<p>Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>",
+          "unidentified": "<p>Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>"
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 3000000,
+      "flags": {
+        "obsidian": {
+          "source": {
+            "type": "other"
+          },
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_mindvision.jpg",
+      "effects": []
+    },
+    {
+      "_id": "qftGcrTKx39L4L3F",
+      "name": "Dwarven Resilience",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>You have advantage on saving throws against poison, and you have resistance against poison damage (explained in the “<span style=\"color: rgba(71, 209, 140, 1)\"><a style=\"color: rgba(71, 209, 140, 1)\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/combat#DamageTypes\">Combat</a></span>” section).</p>",
+          "chat": "<p>You have advantage on saving throws against poison, and you have resistance against poison damage (explained in the “<span style=\"color: rgba(71, 209, 140, 1)\"><a style=\"color: rgba(71, 209, 140, 1)\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/combat#DamageTypes\">Combat</a></span>” section).</p>",
+          "unidentified": "<p>You have advantage on saving throws against poison, and you have resistance against poison damage (explained in the “<span style=\"color: rgba(71, 209, 140, 1)\"><a style=\"color: rgba(71, 209, 140, 1)\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/combat#DamageTypes\">Combat</a></span>” section).</p>"
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 3100000,
+      "flags": {
+        "obsidian": {
+          "source": {
+            "type": "other"
+          },
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "icons/svg/mystery-man.svg",
+      "effects": []
+    },
+    {
+      "_id": "MN2oE6ltm1RE2G5L",
+      "name": "Dwarven Combat Training",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.</p>",
+          "chat": "<p>You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.</p>",
+          "unidentified": "<p>You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.</p>"
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 3200000,
+      "flags": {
+        "obsidian": {
+          "source": {
+            "type": "other"
+          },
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "icons/svg/mystery-man.svg",
+      "effects": []
+    },
+    {
+      "_id": "X2wVitvcQV78IYDX",
+      "name": "Tool Proficiency",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>You gain proficiency with the artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</p>",
+          "chat": "<p>You gain proficiency with the artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</p>",
+          "unidentified": "<p>You gain proficiency with the artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</p>"
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 3300000,
+      "flags": {
+        "obsidian": {
+          "source": {
+            "type": "other"
+          },
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "icons/svg/mystery-man.svg",
+      "effects": []
+    },
+    {
+      "_id": "bEaZxIvf7WESGG52",
+      "name": "Stonecunning",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>",
+          "chat": "<p>Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>",
+          "unidentified": "<p>Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>"
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 3400000,
+      "flags": {
+        "obsidian": {
+          "source": {
+            "type": "other"
+          },
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "icons/svg/mystery-man.svg",
+      "effects": []
+    },
+    {
+      "_id": "6vlJOxZKJ8Nv2mJr",
+      "name": "Dwarven Armor Training",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>You have proficiency with light and <span class=\"No-Break\">medium armor.</span></p>",
+          "chat": "<p>You have proficiency with light and <span class=\"No-Break\">medium armor.</span></p>",
+          "unidentified": "<p>You have proficiency with light and <span class=\"No-Break\">medium armor.</span></p>"
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 3500000,
+      "flags": {
+        "obsidian": {
+          "source": {
+            "type": "other"
+          },
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "icons/svg/mystery-man.svg",
+      "effects": []
+    },
+    {
+      "_id": "OrsIOjcHPR6OnwE8",
+      "name": "Crossbow Bolt",
+      "type": "consumable",
+      "data": {
+        "description": {
+          "value": "<p>This ammunition is used for all varieties of crossbow and is typically a short metal shaft with a narrow piercing tip.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 150",
+        "quantity": 13,
+        "weight": 0.075,
+        "price": 0.02,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": "",
+          "autoDestroy": false
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "",
+              "piercing"
+            ]
+          ],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "consumableType": "ammo",
+        "bonus": {
+          "value": 0,
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damage2": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damage2Type": {
+          "value": "",
+          "_deprecated": true
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 4400000,
+      "flags": {
+        "mess": {
+          "templateTexture": ""
+        },
+        "magicitems": {
+          "charges": "0",
+          "chargeType": "c1",
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "enabled": false,
+          "destroy": false,
+          "rechargeable": false
+        },
+        "obsidian": {
+          "unlimited": false,
+          "subtype": "potion",
+          "effects": [
+            {
+              "name": "",
+              "uuid": "608019d2-f063-45e8-807e-f38dd22e7711",
+              "components": [
+                {
+                  "type": "attack",
+                  "uuid": "cefcaf17-678e-44f7-a18c-5748ef750596",
+                  "attack": "ranged",
+                  "category": "weapon",
+                  "ability": "",
+                  "bonus": 0,
+                  "crit": 20,
+                  "proficient": false,
+                  "reach": null,
+                  "range1": null,
+                  "range2": null,
+                  "target": ""
+                },
+                {
+                  "type": "consume",
+                  "uuid": "0fd89d4e-051d-4fc6-9c9d-f6e84840837d",
+                  "target": "qty",
+                  "itemID": "",
+                  "featID": "",
+                  "ref": "",
+                  "fixed": 1,
+                  "slots": "any",
+                  "class": "",
+                  "slot": 1
+                }
+              ]
+            }
+          ],
+          "version": 7
+        }
+      },
+      "img": "systems/dnd5e/icons/items/weapons/bolt.png",
+      "effects": []
+    },
+    {
+      "_id": "1Pum6dx0pPe0P4Vg",
+      "name": "Fighting Style: Great Weapon Fighting",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 72; 73; 84",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null,
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "Fighter 1, Champion 10, Paladin 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "featType": {
+          "value": "passive",
+          "_deprecated": true,
+          "type": "String",
+          "label": "Feat Type"
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        }
+      },
+      "sort": 4500000,
+      "flags": {
+        "entityorder": {
+          "order": 197
+        },
+        "obsidian": {
+          "source": {
+            "type": "other"
+          },
+          "effects": [],
+          "version": 7
+        },
+        "favtab": {
+          "isFavorite": true
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/yellow_16.jpg",
+      "effects": []
+    },
+    {
+      "_id": "SjTZVg7BkhG5hiHj",
+      "name": "Action Surge",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible Bonus Action.</p>\n<p>Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</p>\n<p><em>**Foundry note: Note the limited uses is set to the base default of 1 per short or long rest. Please manually adjust as required.</em></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 72",
+        "activation": {
+          "type": "special",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "self"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "sr",
+          "type": "sr"
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "Fighter 2",
+        "recharge": {
+          "value": 0,
+          "charged": false
+        },
+        "featType": {
+          "value": "ability",
+          "_deprecated": true,
+          "type": "String",
+          "label": "Feat Type"
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        }
+      },
+      "sort": 4600000,
+      "flags": {
+        "_sheetTab": "details",
+        "entityorder": {
+          "order": 218
+        },
+        "obsidian": {
+          "source": {
+            "type": "class",
+            "class": "fgt"
+          },
+          "effects": [
+            {
+              "name": "",
+              "uuid": "c66e9b2a-12b1-4454-982f-34e42cd1f9ca",
+              "components": [
+                {
+                  "type": "resource",
+                  "name": "Uses",
+                  "uuid": "a335abdf-6e0c-45b6-b5ff-afd40e5cf314",
+                  "recharge": {
+                    "time": "short",
+                    "calc": "all",
+                    "ndice": 0,
+                    "die": 2,
+                    "bonus": 0,
+                    "roll": null
+                  },
+                  "bonus": 0,
+                  "operator": "plus",
+                  "key": "abl",
+                  "min": 0,
+                  "calc": "fixed",
+                  "fixed": 1,
+                  "remaining": 0
+                }
+              ]
+            }
+          ],
+          "version": 7
+        },
+        "mess": {
+          "templateTexture": ""
+        },
+        "dynamiceffects": {
+          "effects": [],
+          "alwaysActive": false,
+          "equipActive": false
+        },
+        "favtab": {
+          "isFavorite": true
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/red_01.jpg",
+      "effects": []
+    },
+    {
+      "_id": "sUtVsL5Dowo2jlcd",
+      "name": "Battle Master",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Those who emulate the archetypal Battle Master employ martial techniques passed down through generations. To a Battle Master, combat is an academic field, sometimes including subjects beyond battle such as weaponsmithing and calligraphy. Not every fighter absorbs the lessons of history, theory, and artistry that are reflected in the Battle Master archetype, but those who do are well-rounded fighters of great skill and knowledge.</p><div class=\"rd__spc-inline-post\"></div><div  class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"13\" > <span class=\"entry-title-inner\">Maneuvers.</span></span> <div  class=\"rd__b  rd__b--3\"></div><div class=\"rd__spc-inline-post\"></div><div  class=\"rd__b  rd__b--3\"></div><div  class=\"rd__b  rd__b--3\"></div><div  class=\"rd__b  rd__b--3\"></div><div  class=\"rd__b  rd__b--3\"></div><div  class=\"rd__b  rd__b--3\"></div><div  class=\"rd__b  rd__b--3\"></div><div  class=\"rd__b  rd__b--3\"></div><div  class=\"rd__b  rd__b--3\"></div><div  class=\"rd__b  rd__b--3\"></div><div  class=\"rd__b  rd__b--3\"></div><div  class=\"rd__b  rd__b--3\"></div><div  class=\"rd__b  rd__b--3\"></div><div  class=\"rd__b  rd__b--3\"></div><div  class=\"rd__b  rd__b--3\"></div><div  class=\"rd__b  rd__b--3\"></div></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 4700000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": []
+    },
+    {
+      "_id": "w6JzQn1QKNv5H96g",
+      "name": "Battle Master: Combat Superiority",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>When you choose this archetype at 3rd level, you learn maneuvers that are fueled by special dice called superiority dice.</p><div class=\"rd__spc-inline-post\"></div><div  class=\"rd__b  rd__b--3\"></div><div  class=\"rd__b  rd__b--3\"></div><div  class=\"rd__b  rd__b--3\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 4800000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": []
+    },
+    {
+      "_id": "10miz5mMlk52EYcJ",
+      "name": "Battle Master: Combat Superiority: Maneuvers",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>You learn three maneuvers of your choice, which are listed under \"Maneuvers\" below. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.</p><div class=\"rd__spc-inline-post\"></div><p>You learn two additional maneuvers of your choice at 7th, 10th, and 15th level. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 4900000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": []
+    },
+    {
+      "_id": "r6dgArXg3f5YBdFr",
+      "name": "Battle Master: Combat Superiority: Saving Throws",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Some of your maneuvers require your target to make a saving throw to resist the maneuver's effects. The saving throw DC is calculated as follows:</p><div class=\"rd__spc-inline-post\"></div><p><div class=\"text-center\"><b>Maneuver save DC</b> = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)</div></p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 5000000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": []
+    },
+    {
+      "_id": "XDuyHNQIR1FPSXe2",
+      "name": "Battle Master: Combat Superiority: Superiority Dice",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>You have four superiority dice, which are [[/r d8]]s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.</p><div class=\"rd__spc-inline-post\"></div><p>You gain another superiority die at 7th level and one more at 15th level.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 5100000,
+      "flags": {
+        "favtab": {
+          "isFavorite": true
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": []
+    },
+    {
+      "_id": "LRlfEIayKfkWmCeu",
+      "name": "Spell Scroll (7th Level)",
+      "type": "consumable",
+      "data": {
+        "description": {
+          "value": "<div>\n\t\t\t<div><i>Scroll, minor tier, very rare</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\"></div>\n\t\t\t\t<div class=\"col-8 text-right\">  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.</p><p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 17. On a failed check, the spell disappears from the scroll with no other effect.</p><p>Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.</p><p>A spell cast from this scroll has a save DC of 18 and an attack bonus of [[/r 1d20+10]] (+10).</p><p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 17 Intelligence (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 773, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Arcana</span>) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "DMG",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Very Rare",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null,
+          "autoDestroy": true,
+          "autoUse": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "consumableType": "scroll"
+      },
+      "sort": 100001,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/tied-scroll.svg",
+      "effects": []
+    },
+    {
+      "_id": "evE0nafytn9uGgK8",
+      "name": "Hempen Rope (50 feet)",
+      "type": "consumable",
+      "data": {
+        "description": {
+          "value": "<div>\n\t\t\t<div><i>Adventuring gear</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">1 gp, 10 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 10,
+        "price": 1,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "charges",
+          "autoDestroy": false,
+          "autoUse": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "abil",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "str",
+          "dc": 17,
+          "scaling": "flat"
+        },
+        "consumableType": "trinket"
+      },
+      "sort": 100001,
+      "flags": {},
+      "img": "systems/dnd5e/icons/items/inventory/rope.jpg",
+      "effects": []
+    },
+    {
+      "_id": "1wcrF3q74O04NoFn",
+      "name": "Longsword",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div>\n\t\t\t<div><i>Martial weapon, melee weapon</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">15 gp, 3 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">[[/r 1d8]] slashing  - versatile ([[/r 1d10]])</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><div  class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\" > <span class=\"entry-title-inner\">Versatile.</span></span> <p>This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack.</p><div class=\"rd__spc-inline-post\"></div></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 3,
+        "price": 15,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d8 + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": "1d10 + @mod"
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialM",
+        "properties": {
+          "ver": true
+        },
+        "proficient": true
+      },
+      "sort": 6900000,
+      "flags": {},
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_sword_27.jpg",
+      "effects": []
+    },
+    {
+      "_id": "J9hoTJQHuNpxu8NI",
+      "name": "Great Weapon Master",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div>\n\t\t\t\n\t\t\t<div  class=\"rd__b  rd__b--3\"><p>You've learned to put the weight of a weapon to your advantage, letting its momentum empower your strikes. You gain the following benefits:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li \">On your turn, when you score a critical hit with a melee weapon or reduce a creature to 0 hit points with one, you can make one melee weapon attack as a bonus action.</li><li class=\"rd__li \">Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack's damage.</li></ul></div>\n\t\t</div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": null
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": 0,
+          "charged": true
+        }
+      },
+      "sort": 7000000,
+      "flags": {
+        "plutonium": {
+          "page": "feats.html",
+          "source": "PHB",
+          "hash": "great%20weapon%20master_phb"
+        },
+        "favtab": {
+          "isFavorite": true
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_warrior_weaponmastery.jpg",
+      "effects": []
+    },
+    {
+      "_id": "6Zz0YcgMIxqSc0Mi",
+      "name": "Shield",
+      "type": "equipment",
+      "data": {
+        "description": {
+          "value": "<p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>",
+          "chat": "<p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>",
+          "unidentified": "Shield"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 6,
+        "price": 10,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 2,
+          "type": "shield",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": true
+      },
+      "sort": 300000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Shield"
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "destroy": false,
+          "rechargeable": false
+        },
+        "obsidian": {
+          "subtype": "armour",
+          "magical": false,
+          "effects": [],
+          "version": 7,
+          "armour": true
+        },
+        "dae": {
+          "activeEquipped": true
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_vehicle_shellshieldgenerator.jpg",
+      "effects": [
+        {
+          "_id": "CkmJbysspB0Cze7p",
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "armorEffect": true
+            }
+          },
+          "changes": [
+            {
+              "key": "data.attributes.ac.value",
+              "value": "2",
+              "mode": 2,
+              "priority": 7
+            }
+          ],
+          "duration": {},
+          "icon": "https://wow.zamimg.com/images/wow/icons/large/ability_vehicle_shellshieldgenerator.jpg",
+          "label": "Shield",
+          "origin": "Actor.VAkepmEyZkIiCMgg.OwnedItem.yGqB04CEicjvfQfS",
+          "transfer": true
+        }
+      ]
+    },
+    {
+      "_id": "4Btju4fKgXZJ4yqw",
+      "name": "Chain Mail",
+      "type": "equipment",
+      "data": {
+        "description": {
+          "value": "<p>Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.</p>",
+          "chat": "<p>Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.</p>",
+          "unidentified": "Heavy Armor"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 55,
+        "price": 75,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 16,
+          "type": "heavy",
+          "dex": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 13,
+        "stealth": true,
+        "proficient": true
+      },
+      "sort": 400000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Heavy Armor"
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "destroy": false,
+          "rechargeable": false
+        },
+        "obsidian": {
+          "subtype": "armour",
+          "magical": false,
+          "effects": [],
+          "version": 7,
+          "armour": true
+        },
+        "dae": {
+          "activeEquipped": true
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_07.jpg",
+      "effects": [
+        {
+          "_id": "gLd8rmBzE96PHlZq",
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "armorEffect": true
+            }
+          },
+          "changes": [
+            {
+              "key": "data.attributes.ac.value",
+              "value": "16",
+              "mode": 5,
+              "priority": 4
+            }
+          ],
+          "duration": {},
+          "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_07.jpg",
+          "label": "Chain Mail",
+          "origin": "Actor.VAkepmEyZkIiCMgg.OwnedItem.JdTCscOhXokbpsgK",
+          "transfer": true
+        }
+      ]
+    },
+    {
+      "_id": "vV3KGhPBpO9Wo7Zn",
+      "name": "Second Wind",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "Once per short rest, you can use a bonus action to regain 1d10 + {{classlevel}} HP.",
+          "chat": "Once per short rest, you can use a bonus action to regain 1d10 + {{classlevel}} HP.",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "sr"
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 3600000,
+      "flags": {
+        "obsidian": {
+          "source": {
+            "type": "other"
+          },
+          "effects": [
+            {
+              "name": "",
+              "uuid": "1e720c8e-3177-435e-9d35-d94481e34915",
+              "components": [
+                {
+                  "type": "resource",
+                  "name": "Uses",
+                  "uuid": "c86ca099-5086-43d0-b1e3-476e8ecb12b5",
+                  "recharge": {
+                    "time": "short",
+                    "calc": "all",
+                    "ndice": 0,
+                    "die": 2,
+                    "bonus": 0,
+                    "roll": null
+                  },
+                  "bonus": 0,
+                  "operator": "plus",
+                  "key": "abl",
+                  "min": 0,
+                  "calc": "fixed",
+                  "fixed": 1,
+                  "remaining": 0
+                }
+              ]
+            }
+          ],
+          "version": 7
+        },
+        "mess": {
+          "templateTexture": ""
+        },
+        "dynamiceffects": {
+          "alwaysActive": true,
+          "effects": [
+            {
+              "modSpecKey": "data.resources.primary.value",
+              "value": "-1",
+              "mode": "+",
+              "targetSpecific": false,
+              "id": 1,
+              "itemId": "MCpB2GONYoM2Uq3x",
+              "active": true,
+              "_targets": []
+            }
+          ]
+        },
+        "favtab": {
+          "isFavorite": true
+        },
+        "dae": {
+          "alwaysActive": true
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_warrior_secondwind.jpg",
+      "effects": [
+        {
+          "_id": "iWmKYhGPKk9FDOF4",
+          "flags": {
+            "dae": {
+              "transfer": false
+            }
+          },
+          "changes": [
+            {
+              "key": "data.resources.primary.value",
+              "value": -1,
+              "mode": 2,
+              "priority": 20
+            }
+          ],
+          "duration": {},
+          "icon": "https://wow.zamimg.com/images/wow/icons/large/ability_warrior_secondwind.jpg",
+          "label": "Second Wind",
+          "transfer": false
+        }
+      ]
+    },
+    {
+      "_id": "obaolXxXFXJwbPZH",
+      "name": "Goggles of Night",
+      "type": "equipment",
+      "data": {
+        "description": {
+          "value": "<div>\n\t\t\t<div><i>Wondrous item, minor tier, uncommon</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\"></div>\n\t\t\t\t<div class=\"col-8 text-right\">  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>While wearing these dark lenses, you have <span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 1, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">darkvision</span> out to a range of 60 feet. If you already have <span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 2, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">darkvision</span>, wearing the goggles increases its range by 60 feet.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "DMG",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Uncommon",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": null,
+          "type": "",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "stealth": false,
+        "proficient": true
+      },
+      "sort": 100000,
+      "flags": {
+        "gm-notes": {
+          "notes": "<ul>\n<li>Drow. The item is half the normal weight. It is black and inscribed with spiders and webs in honor of Lolth. It might function poorly, or disintegrate, if exposed to sunlight for 1 minute or more.</li>\n<li>Heroic. A great hero once wielded this item. Anyone who's familiar with the item's history expects great deeds from the new owner.</li>\n<li>Hidden Message. A message is hidden somewhere on the item. It might be visible only at a certain time of the year, under the light of one phase of the moon, or in a specific location.</li>\n<li>Blissful. While in possession of the item, the bearer feels fortunate and optimistic about what the future holds. Butterflies and other harmless creatures might frolic in the item's presence.</li>\n</ul>"
+        },
+        "magicitems": {
+          "charges": "0",
+          "chargeType": "c1",
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "enabled": false,
+          "destroy": false,
+          "rechargeable": false
+        },
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false,
+          "effects": []
+        },
+        "dae": {
+          "alwaysActive": false,
+          "activeEquipped": false
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_helmet_47.jpg",
+      "effects": []
+    }
+  ],
+  "effects": [
+    {
+      "_id": "Hbis9IxgxhzMgL27",
+      "flags": {
+        "dae": {
+          "transfer": true,
+          "armorEffect": true
+        }
+      },
+      "changes": [
+        {
+          "key": "data.attributes.ac.value",
+          "value": "2",
+          "mode": 2,
+          "priority": 7
+        }
+      ],
+      "duration": {
+        "startTime": 43111044000
+      },
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/ability_vehicle_shellshieldgenerator.jpg",
+      "label": "Shield",
+      "origin": "Actor.VAkepmEyZkIiCMgg.OwnedItem.6Zz0YcgMIxqSc0Mi"
+    },
+    {
+      "_id": "AQsmPprD1Kn3dH7w",
+      "flags": {
+        "dae": {
+          "transfer": true,
+          "armorEffect": true
+        }
+      },
+      "changes": [
+        {
+          "key": "data.attributes.ac.value",
+          "value": "16",
+          "mode": 5,
+          "priority": 4
+        }
+      ],
+      "duration": {
+        "startTime": 43111044000
+      },
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_07.jpg",
+      "label": "Chain Mail",
+      "origin": "Actor.VAkepmEyZkIiCMgg.OwnedItem.4Btju4fKgXZJ4yqw"
+    }
+  ]
+}

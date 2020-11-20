@@ -1,0 +1,4283 @@
+{
+  "_id": "Pv4sfw4DUt9qDTtD",
+  "name": "Frath Chatzaug",
+  "type": "character",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 12,
+        "proficient": 1,
+        "min": 3,
+        "mod": 1
+      },
+      "dex": {
+        "value": 15,
+        "proficient": 1,
+        "min": 3,
+        "mod": 2
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0,
+        "min": 3,
+        "mod": 2
+      },
+      "int": {
+        "value": 14,
+        "proficient": 0,
+        "min": 3,
+        "mod": 2
+      },
+      "wis": {
+        "value": 14,
+        "proficient": 0,
+        "min": 3,
+        "mod": 2
+      },
+      "cha": {
+        "value": 20,
+        "proficient": 1,
+        "min": 3,
+        "mod": 4
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 12,
+        "min": 0,
+        "type": "Number",
+        "label": "Armor Class"
+      },
+      "hp": {
+        "value": 37,
+        "min": 0,
+        "max": 37,
+        "temp": null,
+        "tempmax": null
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 2
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "spellcasting": "cha",
+      "speed": {
+        "_deprecated": true,
+        "value": "30 ft",
+        "special": ""
+      },
+      "death": {
+        "success": 0,
+        "failure": 0
+      },
+      "encumbrance": {
+        "value": null,
+        "max": null
+      },
+      "exhaustion": "1",
+      "inspiration": false,
+      "deathsaves1": false,
+      "deathsaves2": false,
+      "deathsaves3": false,
+      "deathsavef1": false,
+      "deathsavef2": false,
+      "deathsavef3": false,
+      "exh1": false,
+      "exh2": false,
+      "exh3": false,
+      "exh4": false,
+      "exh5": false,
+      "exh6": false,
+      "hd": {
+        "value": 1,
+        "min": 1,
+        "max": 1
+      },
+      "prof": 2,
+      "spelldc": 14,
+      "fatepoints": {
+        "value": ""
+      },
+      "wounds": {
+        "value": ""
+      },
+      "maxwounds": {
+        "value": ""
+      },
+      "heropoints": {
+        "value": ""
+      },
+      "inspirations": {
+        "value": ""
+      },
+      "burnout": {
+        "value": "0"
+      },
+      "regionmod": {
+        "value": "0"
+      },
+      "title": "",
+      "saturation": {
+        "value": "foodstuffed"
+      },
+      "thirst": {
+        "value": "wquenched"
+      },
+      "fatigue": {
+        "value": "exenegised"
+      },
+      "temp": "exenegised",
+      "newexhaustion": "",
+      "stress": {
+        "value": ""
+      },
+      "deathsave1": {
+        "value": false
+      },
+      "deathsave2": {
+        "value": false
+      },
+      "deathsave3": {
+        "value": false
+      },
+      "conditions": {
+        "value": false
+      },
+      "settingsdisplay": {
+        "value": false
+      },
+      "food": {
+        "value": false
+      },
+      "food2": {
+        "value": false
+      },
+      "food3": {
+        "value": false
+      },
+      "food4": {
+        "value": false
+      },
+      "food5": {
+        "value": false
+      },
+      "waterskin": {
+        "value": false
+      },
+      "waterskin2": {
+        "value": false
+      },
+      "waterskin3": {
+        "value": false
+      },
+      "waterskin4": {
+        "value": false
+      },
+      "waterskin5": {
+        "value": false
+      },
+      "break1": false,
+      "break2": false,
+      "break3": false,
+      "break4": false
+    },
+    "details": {
+      "biography": {
+        "value": "<h1>Entertainer</h1>\n<p>You thrive in front of an audience. You know how to entrance them, entertain them, and even inspire them. Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger. Your music raises their spirits or captures their sorrow. Your dance steps captivate, your humor cuts to the quick. Whatever techniques you use, your ar<span class=\"No-Break\">t is your life.</span></p>\n<h2>By Popular Demand</h2>\n<p>You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble’s court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a<span class=\"No-Break\"> liking to you.</span></p>\n<h1>Traits</h1>\n<h2>Personality Traits</h2>\n<p>I know a story relevant to almost every situation.</p>\n<h2>Ideals</h2>\n<p>Creativity. The world is in need of new ideas and bold action. (Chaotic)</p>\n<h2>Bonds</h2>\n<p>My instrument is my most treasured possession, and it reminds me of someone I love.</p>\n<h2>Flaws</h2>\n<p>Some nobles want my head after seducing their wifes. It was a mistake that I will likely repeat.</p>",
+        "public": "<h1>Entertainer</h1><p>You thrive in front of an audience. You know how to entrance them, entertain them, and even inspire them. Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger. Your music raises their spirits or captures their sorrow. Your dance steps captivate, your humor cuts to the quick. Whatever techniques you use, your ar<span class=\"No-Break\">t is your life.</span></p><h2>By Popular Demand</h2><p>You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble’s court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a<span class=\"No-Break\"> liking to you.</span></p><h1>Traits</h1><h2>Personality Traits</h2><p>I know a story relevant to almost every situation.</p><h2>Ideals</h2><p>Creativity. The world is in need of new ideas and bold action. (Chaotic)</p><h2>Bonds</h2><p>My instrument is my most treasured possession, and it reminds me of someone I love.</p><h2>Flaws</h2><p>I once satirized a noble who still wants my head. It was a mistake that I will likely repeat.</p>"
+      },
+      "alignment": "Chaotic Neutral",
+      "race": "Human",
+      "background": "Entertainer",
+      "xp": {
+        "value": 3015,
+        "min": 0,
+        "max": 6500,
+        "pct": 46.38461538461539
+      },
+      "appearance": "",
+      "trait": "<p>I know a story relevant to almost every situation.</p>",
+      "ideal": "<p>Creativity. The world is in need of new ideas and bold action. (Chaotic)</p>",
+      "bond": "<p>My instrument is my most treasured possession, and it reminds me of someone I love.</p>",
+      "flaw": "<p>I once satirized a noble who still wants my head. It was a mistake that I will likely repeat.</p>",
+      "notesname": "",
+      "notes1name": "",
+      "notes2name": "",
+      "notes3name": "",
+      "notes4name": "",
+      "racedetails": "",
+      "age": "",
+      "height": "",
+      "weight": "",
+      "hcolor": "",
+      "ecolor": "",
+      "notable": "",
+      "goal1": "",
+      "goal2": "",
+      "motivation": "",
+      "habit": "",
+      "family": "",
+      "family2": "",
+      "family3": "",
+      "scar1": "",
+      "scar2": "",
+      "scar3": "",
+      "pt1": "",
+      "pt2": "",
+      "pt3": "",
+      "ideal1": "",
+      "ideal2": "",
+      "ideal3": "",
+      "bond1": "",
+      "bond2": "",
+      "bond3": "",
+      "flaw1": "",
+      "flaw2": "",
+      "flaw3": "",
+      "pq": "",
+      "pq2": "",
+      "pq3": "",
+      "title1": "",
+      "title1e": "",
+      "title2": "",
+      "title2e": "",
+      "title3": "",
+      "title3e": ""
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "senses": "",
+      "languages": {
+        "value": [
+          "common",
+          "orc"
+        ],
+        "custom": ""
+      },
+      "weaponProf": {
+        "value": [
+          "sim"
+        ],
+        "custom": "Crossbow, Hand, Longsword, Rapier, Shortsword; hand crossbows; longswords; rapiers; shortswords"
+      },
+      "armorProf": {
+        "value": [
+          "lgt"
+        ],
+        "custom": ""
+      },
+      "toolProf": {
+        "value": [
+          "disg"
+        ],
+        "custom": "Flute; Pan Flute; Lyre; Disguise Kit; Lute; three musical instruments of your choice"
+      }
+    },
+    "currency": {
+      "pp": 1,
+      "gp": 4,
+      "ep": 1,
+      "sp": 4,
+      "cp": 9
+    },
+    "skills": {
+      "acr": {
+        "value": 1,
+        "ability": "dex",
+        "type": "Number",
+        "label": "Acrobatics",
+        "mod": 4
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "type": "Number",
+        "label": "Animal Handling",
+        "mod": 2
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "type": "Number",
+        "label": "Arcana",
+        "mod": 2
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "type": "Number",
+        "label": "Athletics",
+        "mod": 1
+      },
+      "dec": {
+        "value": 1,
+        "ability": "cha",
+        "type": "Number",
+        "label": "Deception",
+        "mod": 6
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "type": "Number",
+        "label": "History",
+        "mod": 2
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "type": "Number",
+        "label": "Insight",
+        "mod": 2
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "type": "Number",
+        "label": "Intimidation",
+        "mod": 4
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "type": "Number",
+        "label": "Investigation",
+        "mod": 2
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "type": "Number",
+        "label": "Medicine",
+        "mod": 2
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "type": "Number",
+        "label": "Nature",
+        "mod": 2
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "type": "Number",
+        "label": "Perception",
+        "mod": 2
+      },
+      "prf": {
+        "value": 1,
+        "ability": "cha",
+        "type": "Number",
+        "label": "Performance",
+        "mod": 6
+      },
+      "per": {
+        "value": 1,
+        "ability": "cha",
+        "type": "Number",
+        "label": "Persuasion",
+        "mod": 6
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "type": "Number",
+        "label": "Religion",
+        "mod": 2
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "type": "Number",
+        "label": "Sleight of Hand",
+        "mod": 2
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex",
+        "type": "Number",
+        "label": "Stealth",
+        "mod": 4
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "type": "Number",
+        "label": "Survival",
+        "mod": 2
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 4,
+        "override": null,
+        "max": 4
+      },
+      "spell2": {
+        "value": 3,
+        "override": 2,
+        "max": 3
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell0": {
+        "value": 2,
+        "max": 2
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "primary": {
+        "value": 4,
+        "max": 4,
+        "sr": false,
+        "lr": true,
+        "label": "Inspiration"
+      },
+      "secondary": {
+        "value": null,
+        "max": null,
+        "sr": false,
+        "lr": false,
+        "label": ""
+      },
+      "tertiary": {
+        "value": null,
+        "max": null,
+        "sr": false,
+        "lr": false,
+        "label": ""
+      },
+      "fourth": {
+        "label": "",
+        "value": null,
+        "max": null,
+        "sr": false,
+        "lr": false
+      },
+      "count": {
+        "label": "Resource Count",
+        "value": null,
+        "max": 4,
+        "sr": false,
+        "lr": false
+      }
+    }
+  },
+  "sort": 500000,
+  "flags": {
+    "vtta": {
+      "dndbeyond": {
+        "url": "https://www.dndbeyond.com/profile/Selyam/characters/28408154",
+        "totalLevels": 1,
+        "proficiencies": [
+          {
+            "name": "Light Armor"
+          },
+          {
+            "name": "Simple Weapons"
+          },
+          {
+            "name": "Crossbow, Hand"
+          },
+          {
+            "name": "Longsword"
+          },
+          {
+            "name": "Rapier"
+          },
+          {
+            "name": "Shortsword"
+          },
+          {
+            "name": "Flute"
+          },
+          {
+            "name": "Pan Flute"
+          },
+          {
+            "name": "Lyre"
+          },
+          {
+            "name": "Dexterity Saving Throws"
+          },
+          {
+            "name": "Charisma Saving Throws"
+          },
+          {
+            "name": "Deception"
+          },
+          {
+            "name": "Acrobatics"
+          },
+          {
+            "name": "Performance"
+          },
+          {
+            "name": "Persuasion"
+          },
+          {
+            "name": "Stealth"
+          },
+          {
+            "name": "Disguise Kit"
+          },
+          {
+            "name": "Lute"
+          }
+        ],
+        "roUrl": "https://dndbeyond.com/characters/28408154"
+      }
+    },
+    "dnd5e": {
+      "initiativeHalfProf": false,
+      "weaponCriticalThreshold": 20,
+      "jackOfAllTrades": true
+    },
+    "obsidian": {
+      "attributes": {
+        "ac": {
+          "ability1": "dex",
+          "base": 10
+        },
+        "conditions": {},
+        "death": {
+          "adv": false,
+          "bonus": 0,
+          "threshold": 10
+        },
+        "hd": {},
+        "hpMaxMod": 0,
+        "init": {
+          "ability": "dex"
+        },
+        "senses": {},
+        "speed": {
+          "walk": {
+            "override": 30
+          }
+        }
+      },
+      "defenses": {
+        "damage": [],
+        "conditions": [],
+        "disease": false,
+        "sleep": false
+      },
+      "details": {
+        "gender": null,
+        "subrace": null,
+        "milestone": false,
+        "tags": {}
+      },
+      "order": {
+        "equipment": {
+          "root": [],
+          "containers": []
+        }
+      },
+      "saves": {
+        "bonus": 0
+      },
+      "sheet": {
+        "roll": "reg"
+      },
+      "skills": {
+        "bonus": 0,
+        "joat": false,
+        "custom": [],
+        "tools": [
+          {
+            "ability": "str",
+            "bonus": 0,
+            "value": 0,
+            "custom": true,
+            "label": "Disguise Kit"
+          }
+        ],
+        "passives": [
+          "prc",
+          "inv"
+        ]
+      },
+      "spells": {
+        "slots": {}
+      },
+      "traits": {
+        "profs": {
+          "custom": {
+            "armour": [],
+            "weapons": [],
+            "langs": []
+          }
+        }
+      },
+      "version": 7
+    },
+    "mess": {
+      "maxPreparedSpells": 6
+    },
+    "magicitems": {},
+    "core": {
+      "sheetClass": "dnd5e.Obsidian"
+    },
+    "tidy5e-sheet": {
+      "useCoreTraits": true,
+      "traits-compressed": true
+    },
+    "5e-training": {
+      "trainingItems": [
+        {
+          "name": "Connexion Instrument",
+          "ability": "cha",
+          "progress": 131,
+          "completionAt": 300,
+          "progressionStyle": "ability"
+        }
+      ]
+    },
+    "VariantEncumbrance": {
+      "speed": 30,
+      "weight": 34.78,
+      "tier": 0
+    },
+    "exportSource": {
+      "world": "dragon-heist",
+      "system": "dnd5e",
+      "coreVersion": "0.7.7",
+      "systemVersion": "1.1.1"
+    }
+  },
+  "img": "tokens/Frath%20Chatzaug.Avatar.Pv4sfw4DUt9qDTtD.png?t=1589141356171",
+  "token": {
+    "flags": {},
+    "name": "Frath Chatzaug",
+    "displayName": 40,
+    "img": "tokens/Frath%20Chatzaug.Token.Pv4sfw4DUt9qDTtD.png?t=1589141356171",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": true,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 360,
+    "lightAngle": 360,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "Pv4sfw4DUt9qDTtD",
+    "actorLink": true,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "meDidnAEYpIxGXhz",
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "Instead of using a weapon to make a melee weapon attack, you can use an unarmed strike: a punch, kick, head-butt, or similar forceful blow (none of which count as weapons). On a hit, an unarmed strike deals bludgeoning damage equal to 1 + your Strength modifier. You are proficient with your unarmed strikes.",
+          "chat": "Instead of using a weapon to make a melee weapon attack, you can use an unarmed strike: a punch, kick, head-butt, or similar forceful blow (none of which count as weapons). On a hit, an unarmed strike deals bludgeoning damage equal to 1 + your Strength modifier. You are proficient with your unarmed strikes.",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": "",
+          "units": "ft."
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1 + @mod",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "properties": {},
+        "proficient": 1
+      },
+      "sort": 100000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Martial Arts"
+          }
+        },
+        "obsidian": {
+          "category": "simple",
+          "type": "melee",
+          "mode": "melee",
+          "tags": {},
+          "magical": false,
+          "effects": [
+            {
+              "name": "",
+              "uuid": "d077f722-a4a4-4f48-8481-65642862f8da",
+              "components": [
+                {
+                  "type": "attack",
+                  "uuid": "908edbba-e299-45a6-a172-eca59425ca8e",
+                  "attack": "melee",
+                  "category": "weapon",
+                  "ability": "str",
+                  "bonus": 0,
+                  "crit": 20,
+                  "proficient": true,
+                  "reach": null,
+                  "range1": null,
+                  "range2": null,
+                  "target": ""
+                },
+                {
+                  "type": "damage",
+                  "uuid": "3edbba1e-176d-4b1a-8b0a-b7232083ece4",
+                  "calc": "fixed",
+                  "ndice": 1,
+                  "die": 4,
+                  "ability": "str",
+                  "bonus": 1,
+                  "damage": "blg",
+                  "versatile": false
+                }
+              ]
+            }
+          ],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_relics_totemofrage.jpg",
+      "effects": []
+    },
+    {
+      "_id": "GGFTi5g3u48XYmX7",
+      "name": "Dagger",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<p>Proficiency with a dagger allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>",
+          "chat": "<p>Proficiency with a dagger allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>",
+          "unidentified": "Dagger"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 1,
+        "price": 2,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 20,
+          "long": 60,
+          "units": "ft."
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "properties": {
+          "amm": false,
+          "fin": true,
+          "hvy": false,
+          "lgt": true,
+          "rel": false,
+          "fir": false,
+          "rch": false,
+          "spc": false,
+          "thr": true,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "sort": 300000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Dagger",
+            "damage": {
+              "parts": []
+            },
+            "classFeatures": []
+          }
+        },
+        "betterRolls5e": {
+          "quickDamage": {
+            "context": {
+              "0": ""
+            },
+            "value": {
+              "0": true
+            },
+            "altValue": {
+              "0": true
+            }
+          },
+          "quickVersatile": {
+            "altValue": true
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "category": "simple",
+          "type": "melee",
+          "mode": "melee",
+          "tags": {
+            "finesse": true,
+            "light": true,
+            "thrown": true
+          },
+          "magical": false,
+          "effects": [
+            {
+              "name": "",
+              "uuid": "cb379f49-7580-46d3-ac74-1f98b2dc7a92",
+              "components": [
+                {
+                  "type": "attack",
+                  "uuid": "369e862c-4a33-4dea-a3b5-bce1d8fa424e",
+                  "attack": "melee",
+                  "category": "weapon",
+                  "ability": "dex",
+                  "bonus": 0,
+                  "crit": 20,
+                  "proficient": true,
+                  "reach": null,
+                  "range1": null,
+                  "range2": null,
+                  "target": ""
+                },
+                {
+                  "type": "damage",
+                  "uuid": "2b75d068-954a-4d49-9c5e-3d830dd9b74b",
+                  "calc": "formula",
+                  "ndice": 1,
+                  "die": 4,
+                  "ability": "dex",
+                  "bonus": 0,
+                  "damage": "prc",
+                  "versatile": false
+                }
+              ]
+            }
+          ],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_weapon_shortblade_14.jpg",
+      "effects": []
+    },
+    {
+      "_id": "Rmuwie07vWXXLWl8",
+      "name": "Rapier",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<p>Proficiency with a rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>",
+          "chat": "<p>Proficiency with a rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>",
+          "unidentified": "Rapier"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 2,
+        "price": 25,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 5,
+          "units": "ft."
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d8 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialM",
+        "properties": {
+          "amm": false,
+          "fin": true,
+          "hvy": false,
+          "lgt": false,
+          "rel": false,
+          "fir": false,
+          "rch": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "sort": 400000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Rapier",
+            "damage": {
+              "parts": []
+            },
+            "classFeatures": []
+          }
+        },
+        "betterRolls5e": {
+          "quickDamage": {
+            "context": {
+              "0": ""
+            },
+            "value": {
+              "0": true
+            },
+            "altValue": {
+              "0": true
+            }
+          },
+          "quickVersatile": {
+            "altValue": true
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "category": "martial",
+          "type": "melee",
+          "mode": "melee",
+          "tags": {
+            "finesse": true
+          },
+          "magical": false,
+          "effects": [
+            {
+              "name": "",
+              "uuid": "9e95412b-585f-4cd4-a789-3ae8939e33de",
+              "components": [
+                {
+                  "type": "attack",
+                  "uuid": "1f385857-7980-44e1-b282-1f6f6fbe6cf9",
+                  "attack": "melee",
+                  "category": "weapon",
+                  "ability": "dex",
+                  "bonus": 0,
+                  "crit": 20,
+                  "proficient": true,
+                  "reach": null,
+                  "range1": null,
+                  "range2": null,
+                  "target": ""
+                },
+                {
+                  "type": "damage",
+                  "uuid": "22956759-c962-4354-b01f-37aa158b03da",
+                  "calc": "formula",
+                  "ndice": 1,
+                  "die": 8,
+                  "ability": "dex",
+                  "bonus": 0,
+                  "damage": "prc",
+                  "versatile": false
+                }
+              ]
+            }
+          ],
+          "version": 7
+        },
+        "favtab": {
+          "isFavorite": true
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_sword_30.jpg",
+      "effects": []
+    },
+    {
+      "_id": "2NaW3H7T2Gtcnp1q",
+      "name": "Backpack",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p>A backpack is a leather pack carried on the back, typically with straps to secure it. A backpack can hold&nbsp;1 cubic foot/ 30 pounds of gear.</p>\n<p>You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>",
+          "chat": "<p>A backpack is a leather pack carried on the back, typically with straps to secure it. A backpack can hold&nbsp;1 cubic foot/ 30 pounds of gear.</p>\n<p>You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>",
+          "unidentified": "Gear"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 5,
+        "price": 2,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true
+      },
+      "sort": 500000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Gear"
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_bag_29.jpg",
+      "effects": []
+    },
+    {
+      "_id": "nrnclAyWZL3z4Wxy",
+      "name": "Bedroll",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p>You never know where you’re going to sleep, and a bedroll helps you get better sleep in a hayloft or on the cold ground. A bedroll consists of bedding and a blanket thin enough to be rolled up and tied. In an emergency, it can double as a stretcher.</p>",
+          "chat": "<p>You never know where you’re going to sleep, and a bedroll helps you get better sleep in a hayloft or on the cold ground. A bedroll consists of bedding and a blanket thin enough to be rolled up and tied. In an emergency, it can double as a stretcher.</p>",
+          "unidentified": "Gear"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 7,
+        "price": 1,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true
+      },
+      "sort": 600000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Gear"
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_emberweavecloth_01.jpg",
+      "effects": []
+    },
+    {
+      "_id": "PFqKXbPhVuaRWsRX",
+      "name": "Candle",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p>For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</p>",
+          "chat": "<p>For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</p>",
+          "unidentified": "Gear"
+        },
+        "source": "",
+        "quantity": 5,
+        "weight": 0,
+        "price": 0.01,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true
+      },
+      "sort": 700000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Gear"
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_candle_02.jpg",
+      "effects": []
+    },
+    {
+      "_id": "SahM0JnnJFIW3nNa",
+      "name": "Clothes, Costume",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p>This set of&nbsp;clothes is fashioned after a particular costume, typically meant for entertaining.</p>",
+          "chat": "<p>This set of&nbsp;clothes is fashioned after a particular costume, typically meant for entertaining.</p>",
+          "unidentified": "Gear"
+        },
+        "source": "",
+        "quantity": 3,
+        "weight": 4,
+        "price": 5,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true
+      },
+      "sort": 800000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Gear"
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_cloth_82.jpg",
+      "effects": []
+    },
+    {
+      "_id": "7OpanGgRmfIeVoAV",
+      "name": "Rations (1 day)",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>",
+          "chat": "<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>",
+          "unidentified": "Gear"
+        },
+        "source": "",
+        "quantity": 5,
+        "weight": 2,
+        "price": 0.5,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true
+      },
+      "sort": 900000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Gear"
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_food_cooked_ribsandshrimp.jpg",
+      "effects": []
+    },
+    {
+      "_id": "l3yriMvQJ0A2eoRb",
+      "name": "Waterskin",
+      "type": "loot",
+      "data": {
+        "description": {
+          "value": "<p>A waterskin can hold&nbsp;4 pints of liquid.</p>",
+          "chat": "<p>A waterskin can hold&nbsp;4 pints of liquid.</p>",
+          "unidentified": "Gear"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 5,
+        "price": 0.2,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true
+      },
+      "sort": 1000000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Gear"
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_drink_waterskin_12.jpg",
+      "effects": []
+    },
+    {
+      "_id": "s7vOixYKD1YcGS5b",
+      "name": "Disguise Kit",
+      "type": "tool",
+      "data": {
+        "description": {
+          "value": "<p>This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.</p>",
+          "chat": "<p>This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.</p>",
+          "unidentified": "Gear"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 3,
+        "price": 25,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true,
+        "ability": "dex",
+        "chatFlavor": "",
+        "proficient": 1,
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        }
+      },
+      "sort": 1100000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Gear"
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_rogue_disguise.jpg",
+      "effects": []
+    },
+    {
+      "_id": "nd2yOYKPRdcBevi8",
+      "name": "Flute",
+      "type": "tool",
+      "data": {
+        "description": {
+          "value": "<p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.</p>",
+          "chat": "<p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.</p>",
+          "unidentified": "Gear"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 1,
+        "price": 2,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "ability": "dex",
+        "chatFlavor": "",
+        "proficient": 1,
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        }
+      },
+      "sort": 1200000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Gear"
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_flute_01.jpg",
+      "effects": []
+    },
+    {
+      "_id": "A00EeqvLNu9iR0q8",
+      "name": "Lute",
+      "type": "tool",
+      "data": {
+        "description": {
+          "value": "<p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.</p>",
+          "chat": "<p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.</p>",
+          "unidentified": "Gear"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 2,
+        "price": 35,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "ability": "dex",
+        "chatFlavor": "",
+        "proficient": 1,
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        }
+      },
+      "sort": 1300000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Gear"
+          }
+        },
+        "magicitems": {
+          "enabled": false
+        },
+        "obsidian": {
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/trade_archaeology_carved harp of exotic wood.jpg",
+      "effects": []
+    },
+    {
+      "_id": "zq0nVkq8BzF83kIC",
+      "name": "Minor Illusion",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<p>You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.</p>\n<p>If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</p>\n<p>If you create an image of an object--such as a chair, muddy footprints, or a small chest--it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.</p>\n<p>If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p>",
+          "chat": "<p>You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.</p>\n<p>If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</p>\n<p>If you create an image of an object--such as a chair, muddy footprints, or a small chest--it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.</p>\n<p>If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p>",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 5,
+          "width": null,
+          "units": "ft",
+          "type": "cube"
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "ill",
+        "components": {
+          "value": "a bit of fleece",
+          "vocal": false,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a bit of fleece",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 2400000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "lookup": "classSpell",
+            "class": "Bard",
+            "level": 1,
+            "spellLevel": 0,
+            "spellSlots": {
+              "spell0": {
+                "value": 2,
+                "max": 2
+              },
+              "spell1": {
+                "value": 2,
+                "max": 2
+              },
+              "spell2": {
+                "value": 0,
+                "max": 0
+              },
+              "spell3": {
+                "value": 0,
+                "max": 0
+              },
+              "spell4": {
+                "value": 0,
+                "max": 0
+              },
+              "spell5": {
+                "value": 0,
+                "max": 0
+              },
+              "spell6": {
+                "value": 0,
+                "max": 0
+              },
+              "spell7": {
+                "value": 0,
+                "max": 0
+              },
+              "spell8": {
+                "value": 0,
+                "max": 0
+              },
+              "spell9": {
+                "value": 0,
+                "max": 0
+              }
+            },
+            "ability": "cha",
+            "mod": 4,
+            "dc": 14,
+            "cantripBoost": false,
+            "overrideDC": false,
+            "tags": [
+              "Control"
+            ]
+          }
+        },
+        "betterRolls5e": {
+          "quickVersatile": {
+            "altValue": true
+          }
+        },
+        "obsidian": {
+          "time": {
+            "type": "action",
+            "n": 1,
+            "react": ""
+          },
+          "range": {
+            "type": "short",
+            "n": 30
+          },
+          "duration": {
+            "type": "min",
+            "n": 1
+          },
+          "components": {
+            "s": true,
+            "m": true
+          },
+          "source": {
+            "type": "custom"
+          },
+          "effects": [
+            {
+              "name": "",
+              "uuid": "9eaedf8d-bfec-41b6-8596-2970a682ec20",
+              "components": [
+                {
+                  "type": "target",
+                  "uuid": "cce8778c-2c9c-4218-90d7-6a0aab2a3083",
+                  "target": "area",
+                  "count": 1,
+                  "area": "cube",
+                  "distance": 5
+                }
+              ]
+            }
+          ],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_regeneration_02.jpg",
+      "effects": []
+    },
+    {
+      "_id": "fcRtZICYwkqDpdbk",
+      "name": "Dancing Lights",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<p>You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.</p>\n<p>As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range.</p>",
+          "chat": "<p>You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.</p>\n<p>As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range.</p>",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": null,
+          "type": null
+        },
+        "range": {
+          "value": 120,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "evo",
+        "components": {
+          "value": "a bit of phosphorus or wychwood, or a glowworm",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "a bit of phosphorus or wychwood, or a glowworm",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 1500000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "lookup": "classSpell",
+            "class": "Bard",
+            "level": 1,
+            "spellLevel": 0,
+            "spellSlots": {
+              "spell0": {
+                "value": 2,
+                "max": 2
+              },
+              "spell1": {
+                "value": 2,
+                "max": 2
+              },
+              "spell2": {
+                "value": 0,
+                "max": 0
+              },
+              "spell3": {
+                "value": 0,
+                "max": 0
+              },
+              "spell4": {
+                "value": 0,
+                "max": 0
+              },
+              "spell5": {
+                "value": 0,
+                "max": 0
+              },
+              "spell6": {
+                "value": 0,
+                "max": 0
+              },
+              "spell7": {
+                "value": 0,
+                "max": 0
+              },
+              "spell8": {
+                "value": 0,
+                "max": 0
+              },
+              "spell9": {
+                "value": 0,
+                "max": 0
+              }
+            },
+            "ability": "cha",
+            "mod": 4,
+            "dc": 14,
+            "cantripBoost": false,
+            "overrideDC": false,
+            "tags": [
+              "Utility"
+            ]
+          }
+        },
+        "betterRolls5e": {
+          "quickVersatile": {
+            "altValue": true
+          }
+        },
+        "obsidian": {
+          "time": {
+            "type": "action",
+            "n": 1,
+            "react": ""
+          },
+          "range": {
+            "type": "short",
+            "n": 120
+          },
+          "duration": {
+            "type": "min",
+            "n": 1
+          },
+          "components": {
+            "v": true,
+            "s": true,
+            "m": true
+          },
+          "source": {
+            "type": "custom"
+          },
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_wispsplode.jpg",
+      "effects": []
+    },
+    {
+      "_id": "PctXX7q73ulFNVix",
+      "name": "Cure Wounds",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<p>A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p>\n<p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</p>",
+          "chat": "<p>A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p>\n<p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</p>",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "touch",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "heal",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d8 + @mod",
+              "healing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d8"
+        }
+      },
+      "sort": 1600000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "lookup": "classSpell",
+            "class": "Bard",
+            "level": 1,
+            "spellLevel": 1,
+            "spellSlots": {
+              "spell0": {
+                "value": 2,
+                "max": 2
+              },
+              "spell1": {
+                "value": 2,
+                "max": 2
+              },
+              "spell2": {
+                "value": 0,
+                "max": 0
+              },
+              "spell3": {
+                "value": 0,
+                "max": 0
+              },
+              "spell4": {
+                "value": 0,
+                "max": 0
+              },
+              "spell5": {
+                "value": 0,
+                "max": 0
+              },
+              "spell6": {
+                "value": 0,
+                "max": 0
+              },
+              "spell7": {
+                "value": 0,
+                "max": 0
+              },
+              "spell8": {
+                "value": 0,
+                "max": 0
+              },
+              "spell9": {
+                "value": 0,
+                "max": 0
+              }
+            },
+            "ability": "cha",
+            "mod": 4,
+            "dc": 14,
+            "cantripBoost": false,
+            "overrideDC": false,
+            "tags": [
+              "Healing"
+            ]
+          }
+        },
+        "betterRolls5e": {
+          "quickVersatile": {
+            "altValue": true
+          }
+        },
+        "obsidian": {
+          "time": {
+            "type": "action",
+            "n": 1,
+            "react": ""
+          },
+          "range": {
+            "type": "touch",
+            "n": null
+          },
+          "duration": {
+            "type": "instant",
+            "n": null
+          },
+          "components": {
+            "v": true,
+            "s": true
+          },
+          "source": {
+            "type": "custom"
+          },
+          "effects": [
+            {
+              "name": "",
+              "uuid": "82dafccf-27b0-4888-af60-84af4b0b4054",
+              "components": [
+                {
+                  "type": "damage",
+                  "uuid": "0ff2203a-60d8-4451-8865-bf256940b18c",
+                  "calc": "formula",
+                  "ndice": 1,
+                  "die": 8,
+                  "ability": "str",
+                  "bonus": 0,
+                  "damage": "hlg",
+                  "versatile": false
+                }
+              ]
+            },
+            {
+              "name": "Scaling",
+              "uuid": "e0a8d090-93b1-408f-849d-93c088671a7b",
+              "components": [
+                {
+                  "type": "scaling",
+                  "uuid": "73b12f25-e2d0-4fa0-844f-4080c9e3366b",
+                  "method": "spell",
+                  "ref": "82dafccf-27b0-4888-af60-84af4b0b4054"
+                },
+                {
+                  "type": "damage",
+                  "uuid": "d80de36a-cb14-47ba-82a1-9c60e9abe8d7",
+                  "calc": "formula",
+                  "ndice": 1,
+                  "die": 8,
+                  "ability": "",
+                  "bonus": 0,
+                  "damage": "hlg",
+                  "versatile": false
+                }
+              ]
+            }
+          ],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_flashheal.jpg",
+      "effects": []
+    },
+    {
+      "_id": "x91IOV7tUpHIqfAR",
+      "name": "Charm Person",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<p>You attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you.</p>\n<p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p>",
+          "chat": "<p>You attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you.</p>\n<p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p>",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": null,
+          "type": "creature"
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": 14,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "enc",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 1700000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "lookup": "classSpell",
+            "class": "Bard",
+            "level": 1,
+            "spellLevel": 1,
+            "spellSlots": {
+              "spell0": {
+                "value": 2,
+                "max": 2
+              },
+              "spell1": {
+                "value": 2,
+                "max": 2
+              },
+              "spell2": {
+                "value": 0,
+                "max": 0
+              },
+              "spell3": {
+                "value": 0,
+                "max": 0
+              },
+              "spell4": {
+                "value": 0,
+                "max": 0
+              },
+              "spell5": {
+                "value": 0,
+                "max": 0
+              },
+              "spell6": {
+                "value": 0,
+                "max": 0
+              },
+              "spell7": {
+                "value": 0,
+                "max": 0
+              },
+              "spell8": {
+                "value": 0,
+                "max": 0
+              },
+              "spell9": {
+                "value": 0,
+                "max": 0
+              }
+            },
+            "ability": "cha",
+            "mod": 4,
+            "dc": 14,
+            "cantripBoost": false,
+            "overrideDC": false,
+            "tags": [
+              "Control",
+              "Social"
+            ]
+          }
+        },
+        "betterRolls5e": {
+          "quickVersatile": {
+            "altValue": true
+          }
+        },
+        "obsidian": {
+          "time": {
+            "type": "action",
+            "n": 1,
+            "react": ""
+          },
+          "range": {
+            "type": "short",
+            "n": 30
+          },
+          "duration": {
+            "type": "hour",
+            "n": 1
+          },
+          "components": {
+            "v": true,
+            "s": true
+          },
+          "source": {
+            "type": "custom"
+          },
+          "effects": [
+            {
+              "name": "",
+              "uuid": "212bd45b-9ad2-4c0f-bff1-abceda71c52d",
+              "components": [
+                {
+                  "type": "target",
+                  "uuid": "35916b87-9499-403d-80af-dfbc6335d5a5",
+                  "target": "individual",
+                  "count": 1,
+                  "area": "cone",
+                  "distance": 0
+                },
+                {
+                  "type": "save",
+                  "uuid": "9996f826-1047-41e2-a559-9fec8bf5888e",
+                  "calc": "formula",
+                  "fixed": 0,
+                  "bonus": 8,
+                  "prof": 1,
+                  "ability": "spell",
+                  "target": "wis",
+                  "effect": ""
+                }
+              ]
+            }
+          ],
+          "version": 7
+        },
+        "favtab": {
+          "isFavorite": true
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_charm.jpg",
+      "effects": []
+    },
+    {
+      "_id": "x8XUadkB26vsVuTS",
+      "name": "Illusory Script",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<p>You write on parchment, paper, or some other suitable writing material and imbue it with a potent illusion that lasts for the duration.</p>\n<p>To you and any creatures you designate when you cast the spell, the writing appears normal, written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown or magical script that is unintelligible. Alternatively, you can cause the writing to appear to be an entirely different message, written in a different hand and language, though the language must be one you know.</p>\n<p>Should the spell be dispelled, the original script and the illusion both disappear.</p>\n<p>A creature with truesight can read the hidden message.</p>",
+          "chat": "<p>You write on parchment, paper, or some other suitable writing material and imbue it with a potent illusion that lasts for the duration.</p>\n<p>To you and any creatures you designate when you cast the spell, the writing appears normal, written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown or magical script that is unintelligible. Alternatively, you can cause the writing to appear to be an entirely different message, written in a different hand and language, though the language must be one you know.</p>\n<p>Should the spell be dispelled, the original script and the illusion both disappear.</p>\n<p>A creature with truesight can read the hidden message.</p>",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "minute",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 10,
+          "units": "day"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "touch",
+          "type": null
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "ill",
+        "components": {
+          "value": "a lead-based ink worth at least 10 gp, which the spell consumes",
+          "vocal": false,
+          "somatic": true,
+          "material": true,
+          "ritual": true,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a lead-based ink worth at least 10 gp, which the spell consumes",
+          "consumed": true,
+          "cost": 10,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 1800000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "lookup": "classSpell",
+            "class": "Bard",
+            "level": 1,
+            "spellLevel": 1,
+            "spellSlots": {
+              "spell0": {
+                "value": 2,
+                "max": 2
+              },
+              "spell1": {
+                "value": 2,
+                "max": 2
+              },
+              "spell2": {
+                "value": 0,
+                "max": 0
+              },
+              "spell3": {
+                "value": 0,
+                "max": 0
+              },
+              "spell4": {
+                "value": 0,
+                "max": 0
+              },
+              "spell5": {
+                "value": 0,
+                "max": 0
+              },
+              "spell6": {
+                "value": 0,
+                "max": 0
+              },
+              "spell7": {
+                "value": 0,
+                "max": 0
+              },
+              "spell8": {
+                "value": 0,
+                "max": 0
+              },
+              "spell9": {
+                "value": 0,
+                "max": 0
+              }
+            },
+            "ability": "cha",
+            "mod": 4,
+            "dc": 14,
+            "cantripBoost": false,
+            "overrideDC": false,
+            "tags": [
+              "Communication"
+            ]
+          }
+        },
+        "betterRolls5e": {
+          "quickVersatile": {
+            "altValue": true
+          }
+        },
+        "obsidian": {
+          "time": {
+            "type": "min",
+            "n": 1,
+            "react": ""
+          },
+          "range": {
+            "type": "touch",
+            "n": null
+          },
+          "duration": {
+            "type": "day",
+            "n": 10
+          },
+          "components": {
+            "s": true,
+            "m": true
+          },
+          "source": {
+            "type": "custom"
+          },
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_scroll_07.jpg",
+      "effects": []
+    },
+    {
+      "_id": "LOJYfbDmAIjFCM5E",
+      "name": "Hit Points",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Dice:</span></strong> 1d8 per bard level<br><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Points at 1st Level:</span></strong> 8 + your Constitution modifier<br><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Points at Higher Levels:</span></strong> 1d8 (or 5) + your Constitution modifier per bard level after 1st</p>",
+          "chat": "<p><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Dice:</span></strong> 1d8 per bard level<br><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Points at 1st Level:</span></strong> 8 + your Constitution modifier<br><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Points at Higher Levels:</span></strong> 1d8 (or 5) + your Constitution modifier per bard level after 1st</p>",
+          "unidentified": "<p><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Dice:</span></strong> 1d8 per bard level<br><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Points at 1st Level:</span></strong> 8 + your Constitution modifier<br><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Points at Higher Levels:</span></strong> 1d8 (or 5) + your Constitution modifier per bard level after 1st</p>"
+        },
+        "source": "Bard",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 1900000,
+      "flags": {
+        "obsidian": {
+          "source": {
+            "type": "other"
+          },
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/petbattle_health.jpg",
+      "effects": []
+    },
+    {
+      "_id": "DVyD1Uqk1zZ5kXl6",
+      "name": "Silent Image",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot cube. The image appears at a spot within range and lasts for the duration. The image is purely visual; it isn't accompanied by sound, smell, or other sensory effects.</p><div class=\"rd__spc-inline-post\"></div><p>You can use your action to cause the image to move to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking.</p><p>Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "target": {
+          "value": 15,
+          "width": null,
+          "units": "ft",
+          "type": "cube"
+        },
+        "range": {
+          "value": 60,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "ill",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "a bit of fleece",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 2300000,
+      "flags": {
+        "obsidian": {
+          "time": {
+            "type": "action",
+            "n": 1,
+            "react": ""
+          },
+          "range": {
+            "type": "short",
+            "n": 60
+          },
+          "duration": {
+            "type": "min",
+            "n": 10
+          },
+          "components": {
+            "v": true,
+            "s": true,
+            "m": true
+          },
+          "source": {
+            "type": "custom"
+          },
+          "effects": [
+            {
+              "name": "",
+              "uuid": "5cd81ad1-8300-4fee-a03a-20c760953888",
+              "components": [
+                {
+                  "type": "target",
+                  "uuid": "8ed0e53c-7259-4c20-8c05-9289fa412fe2",
+                  "target": "area",
+                  "count": 1,
+                  "area": "cube",
+                  "distance": 15
+                }
+              ]
+            }
+          ],
+          "version": 7
+        },
+        "mess": {
+          "templateTexture": ""
+        }
+      },
+      "img": "systems/dnd5e/icons/spells/air-burst-jade-2.jpg",
+      "effects": []
+    },
+    {
+      "_id": "Vq3Pp554m7RxpLQ6",
+      "name": "Jack of All Trades",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn’t already include your proficiency bonus.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 54",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null,
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "Bard 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "featType": {
+          "value": "passive",
+          "_deprecated": true,
+          "type": "String",
+          "label": "Feat Type"
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        }
+      },
+      "sort": 2600000,
+      "flags": {
+        "entityorder": {
+          "order": 222
+        },
+        "obsidian": {
+          "source": {
+            "type": "class",
+            "class": "brd"
+          },
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/mech_8.jpg",
+      "effects": []
+    },
+    {
+      "_id": "K3IoMnGF4Dtgwn4e",
+      "name": "Disguise Self",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>You make yourself—including your clothing, armor, weapons, and other belongings on your person—look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.</p><div class=\"rd__spc-inline-post\"></div><p>The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.</p><p>To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 651, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Investigation</span>) check against your spell save DC.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": null,
+          "type": "self"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "ill",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 100001,
+      "flags": {
+        "obsidian": {
+          "time": {
+            "type": "action",
+            "n": 1,
+            "react": ""
+          },
+          "range": {
+            "type": "self",
+            "n": null
+          },
+          "duration": {
+            "type": "hour",
+            "n": 1
+          },
+          "components": {
+            "v": true,
+            "s": true
+          },
+          "source": {
+            "type": "custom"
+          },
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "modules/plutonium/media/icon/spell/phb-disguise-self.jpg",
+      "effects": []
+    },
+    {
+      "_id": "0Vb51Db2yFrVpLjT",
+      "name": "Spell Scroll: Detect Thoughts",
+      "type": "consumable",
+      "data": {
+        "description": {
+          "value": "<p>A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.</p><hr/><h3>Detect Thoughts (Level 2)</h3><hr/><div  class=\"rd__b  rd__b--3\"><p>For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.</p><div class=\"rd__spc-inline-post\"></div><p>You initially learn the surface thoughts of the creature—what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.</p><p>Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.</p><p>You can also use this spell to detect the presence of thinking creatures you can't see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.</p><p>Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range.</p></div><hr/><h3>Scroll Details</h3><hr/>\n<p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 12. On a failed check, the spell disappears from the scroll with no other effect.</p>\n<p>Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.</p>\n<p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity.</p>\n<p><strong>Save DC</strong>: 13<br><strong>Attack Bonus</strong>: +5.</p>\n<p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 0,
+        "price": 120,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Uncommon",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "self",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "charges",
+          "autoDestroy": true,
+          "autoUse": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 5,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "consumableType": "scroll",
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 700000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/spell/phb-detect-thoughts.jpg",
+      "effects": []
+    },
+    {
+      "_id": "RmVQPuTXiR4U0KCo",
+      "name": "Detect Thoughts",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.</p><div class=\"rd__spc-inline-post\"></div><p>You initially learn the surface thoughts of the creature—what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.</p><p>Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.</p><p>You can also use this spell to detect the presence of thinking creatures you can't see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.</p><p>Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "self",
+          "type": "creature"
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "self"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "div",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "a copper piece",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 100001,
+      "flags": {},
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_detectlesserinvisibility.jpg",
+      "effects": []
+    },
+    {
+      "_id": "Ifxr1ZyWtbKbSMMZ",
+      "name": "Heat Metal",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Choose a manufactured metal object, such as a metal weapon or a suit of heavy or medium metal armor, that you can see within range. You cause the object to glow red-hot. Any creature in physical contact with the object takes [[/r 2d8]] fire damage when you cast the spell. Until the spell ends, you can use a bonus action on each of your subsequent turns to cause this damage again.</p><div class=\"rd__spc-inline-post\"></div><p>If a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn't drop the object, it has disadvantage on attack rolls and ability checks until the start of your next turn.</p></div><div  class=\"rd__b  rd__b--3\"><div  class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"7391\" > <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by [[/r 1d8]] for each slot level above 2nd.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "object"
+        },
+        "range": {
+          "value": 60,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "2d8",
+              "fire"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "trs",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "a piece of iron and a flame",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d8"
+        }
+      },
+      "sort": 100001,
+      "flags": {},
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_foundryraid_heatregulators.jpg",
+      "effects": []
+    },
+    {
+      "_id": "Nyx9CEaKS4mUxd8w",
+      "name": "Healer's Kit",
+      "type": "consumable",
+      "data": {
+        "description": {
+          "value": "<div>\n\t\t\t<div><i>Adventuring gear</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">5 gp, 3 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 718, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Medicine</span>) check.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 3,
+        "price": 5,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": 10,
+          "max": 10,
+          "per": "charges",
+          "autoDestroy": true,
+          "autoUse": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "consumableType": "trinket"
+      },
+      "sort": 100001,
+      "flags": {},
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_gizmo_healthpotionpack.jpg",
+      "effects": []
+    },
+    {
+      "_id": "OFn3Ev80l093rkJp",
+      "name": "Leather",
+      "type": "equipment",
+      "data": {
+        "description": {
+          "value": "<p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p>",
+          "chat": "<p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p>",
+          "unidentified": "Light Armor"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 10,
+        "price": 10,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 11,
+          "type": "light",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": true
+      },
+      "sort": 200000,
+      "flags": {
+        "vtta": {
+          "dndbeyond": {
+            "type": "Light Armor"
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "destroy": false,
+          "rechargeable": false
+        },
+        "obsidian": {
+          "subtype": "armour",
+          "magical": false,
+          "effects": [],
+          "version": 7,
+          "armour": true,
+          "addDex": true
+        },
+        "dae": {
+          "activeEquipped": true
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_leather_05.jpg",
+      "effects": [
+        {
+          "_id": "ZRArc51sfoTt9jrn",
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "armorEffect": true
+            }
+          },
+          "changes": [
+            {
+              "key": "data.attributes.ac.value",
+              "value": "(@abilities.dex.mod > 99 ? 99 : @abilities.dex.mod)+ 11",
+              "mode": 5,
+              "priority": 4
+            }
+          ],
+          "duration": {},
+          "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_leather_05.jpg",
+          "label": "Leather",
+          "origin": "Actor.Pv4sfw4DUt9qDTtD.OwnedItem.KbTgMiMOjXFuzZ4u",
+          "transfer": true
+        }
+      ]
+    },
+    {
+      "_id": "5eObyMSRdzvagy4L",
+      "name": "Bardic Inspiraton",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the GM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.&nbsp;</p>\n<p>You can use this feature a number of times equal to your Charisma modifier (a minimum of once).&nbsp;</p>\n<p>You regain any expended uses when you finish a long rest.&nbsp;</p>\n<p>Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.</p>\n<p><em style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">**Foundry note: Note the Other Formula is set to the base default of 1d6 and limited uses is set to the minimum of 1. Additionally, recovery is set to long rest (for levels before @Compendium[dnd5e.classfeatures.3VDZGs5Ug3hIE322]{Font of Inspiration} is gained). Please manually adjust as required.</em></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 53",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 60,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 4,
+          "max": 4,
+          "per": "lr",
+          "type": "lr"
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "1d6",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "Bard 1",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "featType": {
+          "value": "ability",
+          "_deprecated": true,
+          "type": "String",
+          "label": "Feat Type"
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        }
+      },
+      "sort": 2800000,
+      "flags": {
+        "entityorder": {
+          "order": 225
+        },
+        "mess": {
+          "templateTexture": ""
+        },
+        "obsidian": {
+          "source": {
+            "type": "class",
+            "class": "brd"
+          },
+          "effects": [
+            {
+              "name": "",
+              "uuid": "063a9234-0e2f-4975-91ab-b7071eba87af",
+              "components": [
+                {
+                  "type": "target",
+                  "uuid": "7ad6063c-dd1c-4ddf-8718-d2693e8ffb7b",
+                  "target": "individual",
+                  "count": 1,
+                  "area": "cone",
+                  "distance": 0
+                },
+                {
+                  "type": "resource",
+                  "name": "Uses",
+                  "uuid": "9b1c2d02-8c77-46e9-b363-c91aa58ad0c8",
+                  "recharge": {
+                    "time": "long",
+                    "calc": "all",
+                    "ndice": 0,
+                    "die": 2,
+                    "bonus": 0,
+                    "roll": null
+                  },
+                  "bonus": 0,
+                  "operator": "plus",
+                  "key": "abl",
+                  "min": 0,
+                  "calc": "fixed",
+                  "fixed": 4,
+                  "remaining": 0
+                },
+                {
+                  "type": "damage",
+                  "uuid": "654783ff-208f-4407-811a-46e3cdb33c1d",
+                  "calc": "formula",
+                  "ndice": 1,
+                  "die": 6,
+                  "ability": "",
+                  "bonus": 0,
+                  "damage": "",
+                  "versatile": false
+                }
+              ]
+            }
+          ],
+          "version": 7
+        },
+        "dynamiceffects": {
+          "alwaysActive": true,
+          "effects": [
+            {
+              "modSpecKey": "data.resources.primary.value",
+              "value": "-1",
+              "mode": "+",
+              "targetSpecific": false,
+              "id": 1,
+              "itemId": "Ir3t95Rj7M6mw1WX",
+              "active": true,
+              "_targets": []
+            }
+          ]
+        },
+        "favtab": {
+          "isFavorite": true
+        },
+        "dae": {
+          "alwaysActive": true
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/yellow_08.jpg",
+      "effects": [
+        {
+          "_id": "CARqOacAOr2b4ane",
+          "flags": {
+            "dae": {
+              "transfer": false
+            }
+          },
+          "changes": [
+            {
+              "key": "data.resources.primary.value",
+              "value": -1,
+              "mode": 2,
+              "priority": 20
+            }
+          ],
+          "duration": {},
+          "icon": "systems/dnd5e/icons/skills/yellow_08.jpg",
+          "label": "Bardic Inspiraton",
+          "transfer": false
+        }
+      ]
+    },
+    {
+      "_id": "I8XgE7Flxt5hDAwA",
+      "name": "Bard",
+      "type": "class",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--0\"><p>Humming as she traces her fingers over an ancient monument in a long-forgotten ruin, a half-elf in rugged leathers finds knowledge springing into her mind, conjured forth by the magic of her song—knowledge of the people who constructed the monument and the mythic saga it depicts.</p><p>A stern human warrior bangs his sword rhythmically against his scale mail, setting the tempo for his war chant and exhorting his companions to bravery and heroism. The magic of his song fortifies and emboldens them.</p><p>Laughing as she tunes her cittern, a gnome weaves her subtle magic over the assembled nobles, ensuring that her companions' words will be well received.</p><p>Whether scholar, skald, or scoundrel, a bard weaves magic through words and music to inspire allies, demoralize foes, manipulate minds, create illusions, and even heal wounds.</p><div  class=\"rd__b  rd__b--1\"><span class=\"rd__h rd__h--1\" data-title-index=\"5\" > <span class=\"entry-title-inner\">Music and Magic</span></span> <p>In the worlds of D&D, words and music are not just vibrations of air, but vocalizations with power all their own. The bard is a master of song, speech, and the magic they contain. Bards say that the multiverse was spoken into existence, that the words of the gods gave it shape, and that echoes of these primordial Words of Creation still resound throughout the cosmos. The music of bards is an attempt to snatch and harness those echoes, subtly woven into their spells and powers.</p><p>The greatest strength of bards is their sheer versatility. Many bards prefer to stick to the sidelines in combat, using their magic to inspire their allies and hinder their foes from a distance. But bards are capable of defending themselves in melee if necessary, using their magic to bolster their swords and armor. Their spells lean toward charms and illusions rather than blatantly destructive spells. They have a wide-ranging knowledge of many subjects and a natural aptitude that lets them do almost anything well. Bards become masters of the talents they set their minds to perfecting, from musical performance to esoteric knowledge.</p></div><div  class=\"rd__b  rd__b--1\"><span class=\"rd__h rd__h--1\" data-title-index=\"6\" > <span class=\"entry-title-inner\">Learning from Experience</span></span> <p>True bards are not common in the world. Not every minstrel singing in a tavern or jester cavorting in a royal court is a bard. Discovering the magic hidden in music requires hard study and some measure of natural talent that most troubadours and jongleurs lack. It can be hard to spot the difference between these performers and true bards, though. A bard's life is spent wandering across the land gathering lore, telling stories, and living on the gratitude of audiences, much like any other entertainer. But a depth of knowledge, a level of musical skill, and a touch of magic set bards apart from their fellows.</p><p>Only rarely do bards settle in one place for long, and their natural desire to travel—to find new tales to tell, new skills to learn, and new discoveries beyond the horizon—makes an adventuring career a natural calling. Every adventure is an opportunity to learn, practice a variety of skills, enter long-forgotten tombs, discover lost works of magic, decipher old tomes, travel to strange places, or encounter exotic creatures. Bards love to accompany heroes to witness their deeds firsthand. A bard who can tell an awe-inspiring story from personal experience earns renown among other bards. Indeed, after telling so many stories about heroes accomplishing mighty deeds, many bards take these themes to heart and assume heroic roles themselves.</p></div><div  class=\"rd__b  rd__b--1\"><span class=\"rd__h rd__h--1\" data-title-index=\"7\" > <span class=\"entry-title-inner\">Creating a Bard</span></span> <p>Bards thrive on stories, whether those stories are true or not. Your character's background and motivations are not as important as the stories that he or she tells about them. Perhaps you had a secure and mundane childhood. There's no good story to be told about that, so you might paint yourself as an orphan raised by a hag in a dismal swamp. Or your childhood might be worthy of a story. Some bards acquire their magical music through extraordinary means, including the inspiration of fey or other supernatural creatures.</p><p>Did you serve an apprenticeship, studying under a master, following the more experienced bard until you were ready to strike out on your own? Or did you attend a college where you studied bardic lore and practiced your musical magic? Perhaps you were a young runaway or orphan, befriended by a wandering bard who became your mentor. Or you might have been a spoiled noble child tutored by a master. Perhaps you stumbled into the clutches of a hag, making a bargain for a musical gift in addition to your life and freedom, but at what cost?</p><div  class=\"rd__b  rd__b--2\"><span class=\"rd__h rd__h--2\" data-title-index=\"8\" > <span class=\"entry-title-inner\">Quick Build</span></span> <p>You can make a bard quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Dexterity. Second, choose the <a href=\"https://5e.tools/backgrounds.html#entertainer_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'backgrounds.html', 'PHB', 'entertainer_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >entertainer</a> background. Third, choose the <a href=\"https://5e.tools/spells.html#dancing%20lights_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'spells.html', 'PHB', 'dancing%20lights_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >dancing lights</a> and <a href=\"https://5e.tools/spells.html#vicious%20mockery_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'spells.html', 'PHB', 'vicious%20mockery_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >vicious mockery</a> cantrips, along with the following 1st-level spells: <a href=\"https://5e.tools/spells.html#charm%20person_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'spells.html', 'PHB', 'charm%20person_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >charm person</a>, <a href=\"https://5e.tools/spells.html#detect%20magic_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'spells.html', 'PHB', 'detect%20magic_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >detect magic</a>, <a href=\"https://5e.tools/spells.html#healing%20word_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'spells.html', 'PHB', 'healing%20word_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >healing word</a>, and <a href=\"https://5e.tools/spells.html#thunderwave_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'spells.html', 'PHB', 'thunderwave_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >thunderwave</a>.</p></div></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "levels": 4,
+        "subclass": "College of Glamour",
+        "hitDice": "d8",
+        "hitDiceUsed": 0,
+        "skills": {
+          "number": 3,
+          "choices": [],
+          "value": []
+        },
+        "spellcasting": "full"
+      },
+      "sort": 3000000,
+      "flags": {},
+      "img": "https://wow.zamimg.com/images/wow/icons/large/8xp_vulperaflute.jpg",
+      "effects": []
+    },
+    {
+      "_id": "e9Ea264rRy8MQn6i",
+      "name": "Spellcasting",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--1\"><p>You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your spells are part of your vast repertoire, magic that you can tune to different situations. See <a href=\"https://5e.tools/book.html#PHB,10\"   >chapter 10</a> for the general rules of spellcasting and <a href=\"https://5e.tools/book.html#PHB,11\"   >chapter 11</a> for the <a href=\"https://5e.tools/spells.html#blankhash,flstclass:bard=1\"   >bard spell list</a>.</p><div  class=\"rd__b  rd__b--2\"><span class=\"rd__h rd__h--2\" data-title-index=\"9\" > <span class=\"entry-title-inner\">Cantrips</span></span> <p>You know two cantrips of your choice from the bard spell list. You learn additional bard cantrips of your choice at higher levels, learning a 3rd cantrip at 4th level and a 4th at 10th level.</p></div><div  class=\"rd__b  rd__b--2\"><span class=\"rd__h rd__h--2\" data-title-index=\"10\" > <span class=\"entry-title-inner\">Spell Slots</span></span> <p>The Bard table shows how many spell slots you have to cast your <a href=\"https://5e.tools/spells.html#blankhash,flstclass:bard=1\"   >bard spells</a> of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p><p>For example, if you know the 1st-level spell <a href=\"https://5e.tools/spells.html#cure%20wounds_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'spells.html', 'PHB', 'cure%20wounds_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >cure wounds</a> and have a 1st-level and a 2nd-level spell slot available, you can cast <a href=\"https://5e.tools/spells.html#cure%20wounds_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'spells.html', 'PHB', 'cure%20wounds_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >cure wounds</a> using either slot.</p></div><div  class=\"rd__b  rd__b--2\"><span class=\"rd__h rd__h--2\" data-title-index=\"11\" > <span class=\"entry-title-inner\">Spells Known of 1st Level and Higher</span></span> <p>You know four 1st-level spells of your choice from the bard spell list.</p><p>You learn an additional bard spell of your choice at each level except 12th, 16th, 19th, and 20th. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</p><p>Additionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots.</p></div><div  class=\"rd__b  rd__b--2\"><span class=\"rd__h rd__h--2\" data-title-index=\"12\" > <span class=\"entry-title-inner\">Spellcasting Ability</span></span> <p>Charisma is your spellcasting ability for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.</p><p><div class=\"text-center\"><b>Spell save DC</b> = 8 + your proficiency bonus + your Charisma modifier</div></p><p><div class=\"text-center\"><b>Spell attack modifier</b> = your proficiency bonus + your Charisma modifier</div></p></div><div  class=\"rd__b  rd__b--2\"><span class=\"rd__h rd__h--2\" data-title-index=\"13\" > <span class=\"entry-title-inner\">Ritual Casting</span></span> <p>You can cast any bard spell you know as a ritual if that spell has the ritual tag.</p></div><div  class=\"rd__b  rd__b--2\"><span class=\"rd__h rd__h--2\" data-title-index=\"14\" > <span class=\"entry-title-inner\">Spellcasting Focus</span></span> <p>You can use a <a href=\"https://5e.tools/items.html#musical%20instrument_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'items.html', 'PHB', 'musical%20instrument_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >musical instrument</a> as a spellcasting focus for your bard spells.</p></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": "lr"
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "requirements": "Bard 1",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "flags": {
+          "srd5e": {
+            "dataType": "classFeature",
+            "className": "Bard"
+          }
+        }
+      },
+      "sort": 3200000,
+      "flags": {},
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_wispsplode.jpg",
+      "effects": []
+    },
+    {
+      "_id": "0LV8hsB7A4wIj6tv",
+      "name": "Song of Rest (d6)",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points by spending Hit Dice at the end of the short rest, each of those creatures regains an extra [[/r 1d6]] hit points.</p><div class=\"rd__spc-inline-post\"></div><p>The extra hit points increase when you reach certain levels in this class: to [[/r 1d8]] at 9th level, to [[/r 1d10]] at 13th level, and to [[/r 1d12]] at 17th level.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "special",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "heal",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6",
+              "healing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "Bard 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "flags": {
+          "srd5e": {
+            "dataType": "classFeature",
+            "className": "Bard"
+          }
+        }
+      },
+      "sort": 3400000,
+      "flags": {},
+      "img": "systems/dnd5e/icons/skills/green_19.jpg",
+      "effects": []
+    },
+    {
+      "_id": "pVbVGrZX7Qcz3Deu",
+      "name": "Magical Inspiration",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--1\"><p><i>2nd-level bard <a href=\"https://5e.tools/variantrules.html#optional%20class%20features_tce\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'variantrules.html', 'tce', 'optional%20class%20features_tce', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >optional feature</a></i></p><p>If a creature has a Bardic Inspiration die from you and casts a spell that restores hit points or deals damage, the creature can roll that die and choose a target affected by the spell. Add the number rolled as a bonus to the hit points regained or the damage dealt. The Bardic Inspiration die is then lost.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TCE",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "Bard 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "flags": {
+          "srd5e": {
+            "dataType": "classFeature",
+            "className": "Bard"
+          }
+        }
+      },
+      "sort": 3500000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": []
+    },
+    {
+      "_id": "m3sSHJxP9iE6DsM3",
+      "name": "College of Glamour",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--1\"><p>The College of Glamour is the home of bards who mastered their craft in the vibrant realm of the Feywild or under the tutelage of someone who dwelled there. Tutored by satyrs, eladrin, and other fey, these bards learn to use their magic to delight and captivate others.</p><p>The bards of this college are regarded with a mixture of awe and fear. Their performances are the stuff of legend. These bards are so eloquent that a speech or song that one of them performs can cause captors to release the bard unharmed and can lull a furious dragon into complacency. The same magic that allows them to quell beasts can also bend minds. Villainous bards of this college can leech off a community for weeks, misusing their magic to turn their hosts into thralls. Heroic bards of this college instead use this power to gladden the downtrodden and undermine oppressors.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "XGE",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "Bard 3 (Glamour)",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "flags": {
+          "srd5e": {
+            "dataType": "subclassFeature",
+            "className": "Bard",
+            "subclassName": "College of Glamour"
+          }
+        }
+      },
+      "sort": 3600000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": []
+    },
+    {
+      "_id": "iCQAPNziaEion85z",
+      "name": "Mantle of Inspiration",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--1\"><p>When you join the College of Glamour at 3rd level, you gain the ability to weave a song of fey magic that imbues your allies with vigor and speed.</p><p>As a bonus action, you can expend one use of your Bardic Inspiration to grant yourself a wondrous appearance. When you do so, choose a number of creatures you can see and that can see you within 60 feet of you, up to a number equal to your Charisma modifier (minimum of one). Each of them gains 5 temporary hit points. When a creature gains these temporary hit points, it can immediately use its reaction to move up to its speed, without provoking opportunity attacks.</p><p>The number of temporary hit points increases when you reach certain levels in this class, increasing to 8 at 5th level, 11 at 10th level, and 14 at 15th level.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "XGE",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "Bard 3 (Glamour)",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "flags": {
+          "srd5e": {
+            "dataType": "subclassFeature",
+            "className": "Bard",
+            "subclassName": "College of Glamour"
+          }
+        }
+      },
+      "sort": 3700000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": []
+    },
+    {
+      "_id": "RCpq0Hwa9wxw0PQl",
+      "name": "Enthralling Performance",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--1\"><p>Starting at 3rd level, you can charge your performance with seductive, fey magic.</p><p>If you perform for at least 1 minute, you can attempt to inspire wonder in your audience by singing, reciting a poem, or dancing. At the end of the performance, choose a number of humanoids within 60 feet of you who watched and listened to all of it, up to a number equal to your Charisma modifier (minimum of one). Each target must succeed on a Wisdom saving throw against your spell save DC or be <a href=\"https://5e.tools/conditionsdiseases.html#charmed_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'charmed_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >charmed</a> by you. While <a href=\"https://5e.tools/conditionsdiseases.html#charmed_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'charmed_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >charmed</a> in this way, the target idolizes you, it speaks glowingly of you to anyone who talks to it, and it hinders anyone who opposes you, although it avoids violence unless it was already inclined to fight on your behalf. This effect ends on a target after 1 hour, if it takes any damage, if you attack it, or if it witnesses you attacking or damaging any of its allies.</p><p>If a target succeeds on its saving throw, the target has no hint that you tried to charm it.</p><p>Once you use this feature, you can't use it again until you finish a short or long rest.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "XGE",
+        "activation": {
+          "type": "minute",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": 60,
+          "width": null,
+          "units": "ft",
+          "type": "sphere"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": "sr"
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "Bard 3 (Glamour)",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "flags": {
+          "srd5e": {
+            "dataType": "subclassFeature",
+            "className": "Bard",
+            "subclassName": "College of Glamour"
+          }
+        }
+      },
+      "sort": 3800000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": []
+    },
+    {
+      "_id": "uVPbRqHjbnu8hDvl",
+      "name": "Expertise",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</p><div class=\"rd__spc-inline-post\"></div><p>At 10th level, you can choose another two skill proficiencies to gain this benefit.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "Bard 3",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "flags": {
+          "srd5e": {
+            "dataType": "classFeature",
+            "className": "Bard"
+          }
+        }
+      },
+      "sort": 3900000,
+      "flags": {},
+      "img": "https://wow.zamimg.com/images/wow/icons/large/achievement_pvp_p_11.jpg",
+      "effects": []
+    },
+    {
+      "_id": "cdEZw4HN1H1XbILq",
+      "name": "Bardic Versatility",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--1\"><p><i>4th-level bard <a href=\"https://5e.tools/variantrules.html#optional%20class%20features_tce\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'variantrules.html', 'tce', 'optional%20class%20features_tce', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >optional feature</a></i></p><p>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change in focus as you use your skills and magic:</p><ul class=\"rd__list\"><li class=\"rd__li \">Replace one of the skills you chose for the Expertise feature with one of your other skill proficiencies that isn't benefiting from Expertise.</li><li class=\"rd__li \">Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the <a href=\"https://5e.tools/spells.html#blankhash,flstlevel:0=1,flstclass:bard=1\"   >bard spell list</a>.</li></ul></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TCE",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "Bard 4",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "flags": {
+          "srd5e": {
+            "dataType": "classFeature",
+            "className": "Bard"
+          }
+        }
+      },
+      "sort": 4000000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": []
+    }
+  ],
+  "effects": [
+    {
+      "_id": "fiEZvA7tJWf73pVa",
+      "flags": {
+        "dae": {
+          "transfer": true,
+          "armorEffect": true
+        }
+      },
+      "changes": [
+        {
+          "key": "data.attributes.ac.value",
+          "value": "(@abilities.dex.mod > 99 ? 99 : @abilities.dex.mod)+ 11",
+          "mode": 5,
+          "priority": 4
+        }
+      ],
+      "duration": {
+        "startTime": 43111044000
+      },
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_leather_05.jpg",
+      "label": "Leather",
+      "origin": "Actor.Pv4sfw4DUt9qDTtD.OwnedItem.OFn3Ev80l093rkJp"
+    }
+  ]
+}
