@@ -1,5 +1,16 @@
 # Propositions
 
+
+
+## Gain d'XP pour activité de campagne
+
+* Les classes sacrées (paladin, prêtre etc...) peuvent recevoir un bonus d'XP d'un montant égale à 10% des pièces d'or qu'ils ont dépensées en aumône, rituel sacré ou autre dépense sacrée au-delà du cout mensuel d'un henchmen de leur niveau (voir Economie - Henchmen Monthly Fee, eg 200po au niveau 4)
+* Les classes de roublards (voleur, barde etc... ) peuvent  recevoir un bonus d'XP d'un montant égale à 10% des pièces d'or qu'ils ont volées ou extorquées au-delà du cout mensuel d'un henchmen de leur niveau (voir Economie - Henchmen Monthly Fee, eg 200po au niveau 4)
+* Les classes magiques ( magicien, barde etc..)  peuvent  recevoir un bonus d'XP d'un montant égale à 10% des pièces d'or qu'ils ont consacrées à des recherches magiques au-delà du cout mensuel d'un henchmen de leur niveau (voir Economie - Henchmen Monthly Fee, eg 200po au niveau 4)
+* Les classes guerrières ( guerrier, barbare etc...)  peuvent  recevoir un bonus d'XP d'un montant égale à 10% des pièces d'or qu'ils ont gagnés en faisant mercenaires, gardes ou militaires au-delà du cout mensuel d'un henchmen de leur niveau (voir Economie - Henchmen Monthly Fee, eg 200po au niveau 4)
+
+
+
 ## 2e prop
 
 **Les boucliers seront éclatés**
