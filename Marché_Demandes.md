@@ -1,4 +1,4 @@
-#Waterdeep
+# Waterdeep
 
 |Merchandise|	Demande|
 |-----------|----------|
@@ -34,7 +34,7 @@
 |Semipr. stones|	0|
 |Gems|	1|
 
-#Cromm's Hold
+# Cromm's Hold
 
 |Merchandise|	Demande|
 |-----------|----------|
