@@ -65,16 +65,19 @@
         "climb": 0,
         "fly": 0,
         "swim": 0,
-        "walk": 30,
+        "walk": null,
         "units": "ft",
         "hover": false
       },
-      "spellcasting": "int",
-      "speed": {
-        "_deprecated": true,
-        "value": "30ft",
-        "special": ""
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": "Darkvision: 60 ft."
       },
+      "spellcasting": "int",
       "death": {
         "success": 0,
         "failure": 0
@@ -103,7 +106,11 @@
         "max": 1
       },
       "prof": 2,
-      "spelldc": 14
+      "spelldc": 14,
+      "speed": {
+        "value": "",
+        "special": ""
+      }
     },
     "details": {
       "biography": {
@@ -146,7 +153,10 @@
       },
       "notes4": {
         "value": ""
-      }
+      },
+      "attunedItemsMax": "3",
+      "attunedItemsCount": 0,
+      "maxPreparedSpells": null
     },
     "traits": {
       "size": "med",
@@ -166,7 +176,6 @@
         "value": [],
         "custom": ""
       },
-      "senses": "Darkvision: 60 ft.",
       "languages": {
         "value": [
           "dwarvish",
@@ -444,7 +453,7 @@
       }
     }
   },
-  "sort": 300000,
+  "sort": 600000,
   "flags": {
     "vtta": {
       "dndbeyond": {
@@ -617,8 +626,8 @@
     "exportSource": {
       "world": "dragon-heist",
       "system": "dnd5e",
-      "coreVersion": "0.7.7",
-      "systemVersion": "1.1.1"
+      "coreVersion": "0.7.9",
+      "systemVersion": "1.2.2"
     }
   },
   "img": "tokens/Erevan%20Castlewood%20.Avatar.vbcKGc3dObbUnP9j.png?t=1589191665657",
@@ -672,7 +681,7 @@
         "quantity": 1,
         "weight": 0,
         "price": 0,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "common",
         "identified": true,
@@ -805,7 +814,7 @@
         "quantity": 1,
         "weight": 4,
         "price": 0.2,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true,
@@ -986,7 +995,7 @@
         "quantity": 1,
         "weight": 5,
         "price": 2,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1023,7 +1032,7 @@
         "quantity": 1,
         "weight": 7,
         "price": 1,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1060,7 +1069,7 @@
         "quantity": 1,
         "weight": 6,
         "price": 15,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1097,7 +1106,7 @@
         "quantity": 1,
         "weight": 1,
         "price": 0.2,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1134,7 +1143,7 @@
         "quantity": 10,
         "weight": 2,
         "price": 0.5,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1171,7 +1180,7 @@
         "quantity": 1,
         "weight": 10,
         "price": 1,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true
@@ -1208,7 +1217,7 @@
         "quantity": 1,
         "weight": 0,
         "price": 5,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true
@@ -1245,7 +1254,7 @@
         "quantity": 1,
         "weight": 3,
         "price": 50,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1282,7 +1291,7 @@
         "quantity": 1,
         "weight": 1,
         "price": 0.5,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1319,7 +1328,7 @@
         "quantity": 10,
         "weight": 1,
         "price": 0.01,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1356,7 +1365,7 @@
         "quantity": 1,
         "weight": 5,
         "price": 0.2,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true
@@ -1393,7 +1402,7 @@
         "quantity": 1,
         "weight": 4,
         "price": 5,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -4022,7 +4031,7 @@
         "quantity": 1,
         "weight": 0,
         "price": 50,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "None",
         "identified": false,
@@ -4766,7 +4775,7 @@
         "formula": "",
         "save": {
           "ability": "con",
-          "dc": null,
+          "dc": 14,
           "scaling": "spell"
         },
         "level": 2,
@@ -4824,14 +4833,14 @@
           "units": "hour"
         },
         "target": {
-          "value": 1,
+          "value": null,
           "width": null,
           "units": "touch",
           "type": "object"
         },
         "range": {
-          "value": 0,
-          "long": 0,
+          "value": null,
+          "long": null,
           "units": "touch"
         },
         "uses": {
@@ -4910,7 +4919,7 @@
           "condition": ""
         },
         "duration": {
-          "value": 0,
+          "value": null,
           "units": "inst"
         },
         "target": {
@@ -5009,14 +5018,14 @@
           "units": "hour"
         },
         "target": {
-          "value": 0,
+          "value": null,
           "width": null,
-          "units": "self",
+          "units": null,
           "type": "self"
         },
         "range": {
-          "value": 0,
-          "long": 0,
+          "value": null,
+          "long": null,
           "units": "self"
         },
         "uses": {
@@ -5095,7 +5104,7 @@
           "condition": ""
         },
         "duration": {
-          "value": 0,
+          "value": null,
           "units": "inst"
         },
         "target": {
@@ -5185,7 +5194,7 @@
           "condition": ""
         },
         "duration": {
-          "value": 0,
+          "value": null,
           "units": "inst"
         },
         "target": {

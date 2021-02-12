@@ -64,16 +64,19 @@
         "climb": 0,
         "fly": 0,
         "swim": 0,
-        "walk": 30,
+        "walk": null,
         "units": "ft",
         "hover": false
       },
-      "spellcasting": "cha",
-      "speed": {
-        "_deprecated": true,
-        "value": "30 ft",
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
         "special": ""
       },
+      "spellcasting": "cha",
       "death": {
         "success": 0,
         "failure": 0
@@ -82,7 +85,7 @@
         "value": null,
         "max": null
       },
-      "exhaustion": "1",
+      "exhaustion": "0",
       "inspiration": false,
       "hd": {
         "value": 1,
@@ -102,7 +105,11 @@
       "exh3": false,
       "exh4": false,
       "exh5": false,
-      "exh6": false
+      "exh6": false,
+      "speed": {
+        "value": "",
+        "special": ""
+      }
     },
     "details": {
       "biography": {
@@ -113,7 +120,7 @@
       "race": "Human",
       "background": "Waterdhavian Noble",
       "xp": {
-        "value": 3408,
+        "value": 4378,
         "min": 0,
         "max": 6500,
         "pct": 52.43076923076922
@@ -127,7 +134,13 @@
       "notes1name": "",
       "notes2name": "",
       "notes3name": "",
-      "notes4name": ""
+      "notes4name": "",
+      "notes": {
+        "value": "<p>1 point de renom avec les harpers</p>"
+      },
+      "attunedItemsMax": "3",
+      "attunedItemsCount": 0,
+      "maxPreparedSpells": null
     },
     "traits": {
       "size": "med",
@@ -147,7 +160,6 @@
         "value": [],
         "custom": ""
       },
-      "senses": "",
       "languages": {
         "value": [
           "common",
@@ -408,11 +420,11 @@
         "label": "Divine Sense"
       },
       "tertiary": {
-        "value": null,
-        "max": null,
+        "value": 1,
+        "max": 1,
         "sr": false,
         "lr": false,
-        "label": ""
+        "label": "Channel Divinity"
       },
       "fourth": {
         "label": "",
@@ -430,7 +442,7 @@
       }
     }
   },
-  "sort": 200000,
+  "sort": 300000,
   "flags": {
     "vtta": {
       "dndbeyond": {
@@ -588,15 +600,15 @@
       ]
     },
     "VariantEncumbrance": {
-      "speed": 30,
-      "weight": 69.43,
+      "speed": null,
+      "weight": null,
       "tier": 0
     },
     "exportSource": {
       "world": "dragon-heist",
       "system": "dnd5e",
-      "coreVersion": "0.7.7",
-      "systemVersion": "1.1.1"
+      "coreVersion": "0.7.9",
+      "systemVersion": "1.2.2"
     }
   },
   "img": "tokens/Chand%20Cragsmere.Avatar.2LqnQITGYnDrv63D.png?t=1589015550474",
@@ -653,7 +665,7 @@
         "quantity": 1,
         "weight": 0,
         "price": 0,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "common",
         "identified": true,
@@ -786,7 +798,7 @@
         "quantity": 1,
         "weight": 3,
         "price": 15,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true,
@@ -980,7 +992,7 @@
         "quantity": 5,
         "weight": 0.5,
         "price": 0.5,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true,
@@ -1166,7 +1178,7 @@
         "quantity": 1,
         "weight": 5,
         "price": 2,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1203,7 +1215,7 @@
         "quantity": 1,
         "weight": 7,
         "price": 1,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1240,7 +1252,7 @@
         "quantity": 1,
         "weight": 6,
         "price": 15,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1277,7 +1289,7 @@
         "quantity": 1,
         "weight": 1,
         "price": 0.2,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1314,7 +1326,7 @@
         "quantity": 10,
         "weight": 1,
         "price": 0.5,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true,
@@ -1354,7 +1366,7 @@
         "quantity": 1,
         "weight": 10,
         "price": 1,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1391,7 +1403,7 @@
         "quantity": 1,
         "weight": 0,
         "price": 5,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true
@@ -1428,7 +1440,7 @@
         "quantity": 1,
         "weight": 1,
         "price": 0.5,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1465,7 +1477,7 @@
         "quantity": 2,
         "weight": 1,
         "price": 0.01,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true
@@ -1502,7 +1514,7 @@
         "quantity": 1,
         "weight": 5,
         "price": 0.2,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true
@@ -1539,7 +1551,7 @@
         "quantity": 1,
         "weight": 1,
         "price": 5,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true
@@ -1651,7 +1663,7 @@
         "levels": 3,
         "subclass": "Oath of Vengeance",
         "hitDice": "d10",
-        "hitDiceUsed": 1,
+        "hitDiceUsed": 0,
         "skills": {
           "number": 2,
           "choices": [],
@@ -2410,7 +2422,7 @@
         "formula": "",
         "save": {
           "ability": "wis",
-          "dc": 13,
+          "dc": 14,
           "scaling": "spell"
         },
         "level": 1,
@@ -2431,7 +2443,7 @@
         },
         "preparation": {
           "mode": "prepared",
-          "prepared": false
+          "prepared": true
         },
         "scaling": {
           "mode": "none",
@@ -3304,7 +3316,7 @@
         },
         "preparation": {
           "mode": "prepared",
-          "prepared": false
+          "prepared": true
         },
         "scaling": {
           "mode": "none",
@@ -3657,7 +3669,7 @@
         "formula": "",
         "save": {
           "ability": "con",
-          "dc": 13,
+          "dc": 14,
           "scaling": "spell"
         },
         "level": 1,
@@ -3678,7 +3690,7 @@
         },
         "preparation": {
           "mode": "prepared",
-          "prepared": false
+          "prepared": true
         },
         "scaling": {
           "mode": "level",
@@ -3831,7 +3843,7 @@
         "formula": "",
         "save": {
           "ability": "wis",
-          "dc": 13,
+          "dc": 14,
           "scaling": "spell"
         },
         "level": 1,
@@ -3965,7 +3977,7 @@
         "formula": "",
         "save": {
           "ability": "str",
-          "dc": 13,
+          "dc": 14,
           "scaling": "spell"
         },
         "level": 1,
@@ -4110,7 +4122,7 @@
         "formula": "",
         "save": {
           "ability": "wis",
-          "dc": 13,
+          "dc": 14,
           "scaling": "spell"
         },
         "level": 1,
@@ -4302,7 +4314,7 @@
         "quantity": 1,
         "weight": 0.01,
         "price": 0,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "",
         "identified": true,
@@ -4334,7 +4346,7 @@
         "levels": 1,
         "subclass": "hexblade",
         "hitDice": "d8",
-        "hitDiceUsed": 1,
+        "hitDiceUsed": 0,
         "skills": {
           "number": 2,
           "choices": [],
@@ -4367,7 +4379,7 @@
           "condition": ""
         },
         "duration": {
-          "value": 0,
+          "value": null,
           "units": "inst"
         },
         "target": {
@@ -4383,17 +4395,17 @@
         },
         "uses": {
           "value": 0,
-          "max": 0,
+          "max": "0",
           "per": ""
         },
         "consume": {
           "type": "",
-          "target": null,
+          "target": "",
           "amount": null
         },
         "ability": "",
         "actionType": "rsak",
-        "attackBonus": 0,
+        "attackBonus": "0",
         "chatFlavor": "",
         "critical": null,
         "damage": {
@@ -4437,7 +4449,11 @@
         }
       },
       "sort": 100001,
-      "flags": {},
+      "flags": {
+        "midi-qol": {
+          "onUseMacroName": ""
+        }
+      },
       "img": "https://wow.zamimg.com/images/wow/icons/large/spell_mage_infernoblast.jpg",
       "effects": []
     },
@@ -4458,7 +4474,7 @@
           "condition": ""
         },
         "duration": {
-          "value": 0,
+          "value": null,
           "units": "inst"
         },
         "target": {
@@ -4619,7 +4635,7 @@
         },
         "preparation": {
           "mode": "prepared",
-          "prepared": false
+          "prepared": true
         },
         "scaling": {
           "mode": "none",
@@ -4652,14 +4668,14 @@
           "units": "round"
         },
         "target": {
-          "value": 0,
+          "value": null,
           "width": null,
-          "units": "self",
+          "units": null,
           "type": "self"
         },
         "range": {
-          "value": 0,
-          "long": 0,
+          "value": null,
+          "long": null,
           "units": "self"
         },
         "uses": {
@@ -4705,7 +4721,7 @@
         },
         "preparation": {
           "mode": "prepared",
-          "prepared": false
+          "prepared": true
         },
         "scaling": {
           "mode": "none",
@@ -4731,7 +4747,7 @@
         "quantity": 1,
         "weight": 1,
         "price": 0,
-        "attuned": true,
+        "attunement": 0,
         "equipped": true,
         "rarity": "",
         "identified": true,
@@ -4996,7 +5012,7 @@
         "quantity": 1,
         "weight": 0.5,
         "price": 50,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true,
@@ -5127,7 +5143,7 @@
         "formula": "",
         "save": {
           "ability": "cha",
-          "dc": null,
+          "dc": 14,
           "scaling": "spell"
         },
         "level": 1,
@@ -5670,7 +5686,7 @@
         "quantity": 1,
         "weight": 6,
         "price": 10,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true,
@@ -5802,7 +5818,7 @@
         "quantity": 1,
         "weight": 55,
         "price": 75,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true,

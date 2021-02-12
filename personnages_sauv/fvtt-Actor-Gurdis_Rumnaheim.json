@@ -12,7 +12,7 @@
       },
       "dex": {
         "value": 15,
-        "proficient": 1,
+        "proficient": 0,
         "min": 3,
         "mod": 2
       },
@@ -64,16 +64,19 @@
         "climb": 0,
         "fly": 0,
         "swim": 0,
-        "walk": 30,
+        "walk": null,
         "units": "ft",
         "hover": false
       },
-      "spellcasting": "",
-      "speed": {
-        "_deprecated": true,
-        "value": "25 ft",
-        "special": ""
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": "Darkvision: 60 ft."
       },
+      "spellcasting": "",
       "death": {
         "success": 0,
         "failure": 0
@@ -82,7 +85,7 @@
         "value": null,
         "max": null
       },
-      "exhaustion": "1",
+      "exhaustion": "0",
       "inspiration": false,
       "hd": {
         "value": 1,
@@ -102,7 +105,11 @@
       "exh3": false,
       "exh4": false,
       "exh5": false,
-      "exh6": false
+      "exh6": false,
+      "speed": {
+        "value": "",
+        "special": ""
+      }
     },
     "details": {
       "biography": {
@@ -113,7 +120,7 @@
       "race": "Mountain Dwarf",
       "background": "Guild Artisan",
       "xp": {
-        "value": 3518,
+        "value": 4988,
         "min": 0,
         "max": 2700,
         "pct": 38.370370370370374
@@ -132,7 +139,7 @@
         "value": ""
       },
       "notes": {
-        "value": "<p>Arme &agrave; 23 mains qd 1 ou 2 un d&eacute; de d&eacute;gat pour une attaque avec 1 arme de corps &agrave; corps tenue &agrave; 2 mains</p>\n<p>&nbsp;</p>\n<p>Level 2: sursaut d'activit&eacute; (1 utilisation puis repos) +2</p>\n<p>Level3: Archytype martial - maitre d'armes +2</p>\n<p>3 manouevres:&nbsp;</p>\n<p>- attaque menacante</p>\n<p>- parade</p>\n<p>- riposte</p>"
+        "value": "<p>Arme &agrave; 23 mains qd 1 ou 2 un d&eacute; de d&eacute;gat pour une attaque avec 1 arme de corps &agrave; corps tenue &agrave; 2 mains</p>\n<p>&nbsp;</p>\n<p>Level 2: sursaut d'activit&eacute; (1 utilisation puis repos) +2</p>\n<p>Level3: Archytype martial - maitre d'armes +2</p>\n<p>3 manouevres:&nbsp;</p>\n<p>- attaque menacante</p>\n<p>- parade</p>\n<p>- riposte</p>\n<p>&nbsp;</p>\n<p>+1 pt de renom pour les harpers</p>"
       },
       "notes1": {
         "value": ""
@@ -145,7 +152,10 @@
       },
       "notes4": {
         "value": ""
-      }
+      },
+      "attunedItemsMax": "3",
+      "attunedItemsCount": 0,
+      "maxPreparedSpells": null
     },
     "traits": {
       "size": "med",
@@ -167,7 +177,6 @@
         "value": [],
         "custom": ""
       },
-      "senses": "Darkvision: 60 ft.",
       "languages": {
         "value": [
           "common",
@@ -447,7 +456,7 @@
       }
     }
   },
-  "sort": 600000,
+  "sort": 700000,
   "flags": {
     "vtta": {
       "dndbeyond": {
@@ -620,15 +629,15 @@
       ]
     },
     "VariantEncumbrance": {
-      "speed": 25,
+      "speed": null,
       "weight": 75.72,
       "tier": 0
     },
     "exportSource": {
       "world": "dragon-heist",
       "system": "dnd5e",
-      "coreVersion": "0.7.7",
-      "systemVersion": "1.1.1"
+      "coreVersion": "0.7.9",
+      "systemVersion": "1.2.2"
     }
   },
   "img": "tokens/Gurdis%20Rumnaheim.Avatar.VAkepmEyZkIiCMgg.png?t=1589055649629",
@@ -682,7 +691,7 @@
         "quantity": 1,
         "weight": 0,
         "price": 0,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "common",
         "identified": true,
@@ -843,7 +852,7 @@
         "quantity": 1,
         "weight": 5,
         "price": 25,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true,
@@ -869,7 +878,7 @@
         },
         "uses": {
           "value": 0,
-          "max": 0,
+          "max": "0",
           "per": ""
         },
         "consume": {
@@ -879,7 +888,7 @@
         },
         "ability": "dex",
         "actionType": "mwak",
-        "attackBonus": 0,
+        "attackBonus": "0",
         "chatFlavor": "",
         "critical": null,
         "damage": {
@@ -921,7 +930,10 @@
           "ver": false,
           "foc": false,
           "lod": false,
-          "ret": false
+          "ret": false,
+          "mgc": false,
+          "nodam": false,
+          "faulldam": false
         },
         "proficient": true
       },
@@ -1029,7 +1041,7 @@
         "quantity": 1,
         "weight": 2,
         "price": 15,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true,
@@ -1108,7 +1120,9 @@
           "foc": false,
           "lod": false,
           "ret": false,
-          "mgc": false
+          "mgc": false,
+          "nodam": false,
+          "faulldam": false
         },
         "proficient": true
       },
@@ -1233,7 +1247,7 @@
         "quantity": 20,
         "weight": 0.075,
         "price": 1,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true
@@ -1270,7 +1284,7 @@
         "quantity": 1,
         "weight": 5,
         "price": 2,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1307,7 +1321,7 @@
         "quantity": 1,
         "weight": 7,
         "price": 1,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1344,7 +1358,7 @@
         "quantity": 1,
         "weight": 4,
         "price": 2,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1381,7 +1395,7 @@
         "quantity": 1,
         "weight": 1,
         "price": 0.2,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1418,7 +1432,7 @@
         "quantity": 10,
         "weight": 2,
         "price": 0.5,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1455,7 +1469,7 @@
         "quantity": 1,
         "weight": 10,
         "price": 1,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1492,7 +1506,7 @@
         "quantity": 1,
         "weight": 1,
         "price": 0.5,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1529,7 +1543,7 @@
         "quantity": 10,
         "weight": 1,
         "price": 0.01,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true,
@@ -1569,7 +1583,7 @@
         "quantity": 1,
         "weight": 5,
         "price": 0.2,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1606,7 +1620,7 @@
         "quantity": 1,
         "weight": 9,
         "price": 20,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true,
@@ -1654,7 +1668,7 @@
         "levels": 4,
         "subclass": "Battle Master",
         "hitDice": "d10",
-        "hitDiceUsed": 2,
+        "hitDiceUsed": 0,
         "skills": {
           "number": 2,
           "choices": [],
@@ -2220,7 +2234,7 @@
         "quantity": 13,
         "weight": 0.075,
         "price": 0.02,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true,
@@ -2476,7 +2490,7 @@
         "target": {
           "value": null,
           "width": null,
-          "units": "",
+          "units": null,
           "type": "self"
         },
         "range": {
@@ -2941,7 +2955,7 @@
         "quantity": 1,
         "weight": 0,
         "price": null,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Very Rare",
         "identified": true,
@@ -3013,7 +3027,7 @@
         "quantity": 1,
         "weight": 10,
         "price": 1,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "None",
         "identified": false,
@@ -3085,7 +3099,7 @@
         "quantity": 1,
         "weight": 3,
         "price": 15,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "None",
         "identified": false,
@@ -3186,8 +3200,8 @@
           "type": ""
         },
         "range": {
-          "value": 0,
-          "long": 0,
+          "value": null,
+          "long": null,
           "units": null
         },
         "uses": {
@@ -3221,7 +3235,7 @@
           "charged": true
         }
       },
-      "sort": 7000000,
+      "sort": 5200000,
       "flags": {
         "plutonium": {
           "page": "feats.html",
@@ -3249,7 +3263,7 @@
         "quantity": 1,
         "weight": 6,
         "price": 10,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true,
@@ -3385,7 +3399,7 @@
         "quantity": 1,
         "weight": 55,
         "price": 75,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true,
@@ -3668,8 +3682,8 @@
         "quantity": 1,
         "weight": 0,
         "price": null,
-        "attuned": false,
-        "equipped": true,
+        "attunement": 0,
+        "equipped": false,
         "rarity": "Uncommon",
         "identified": true,
         "activation": {
@@ -3782,6 +3796,7 @@
           "priority": 7
         }
       ],
+      "disabled": false,
       "duration": {
         "startTime": 43111044000
       },

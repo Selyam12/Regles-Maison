@@ -6,7 +6,7 @@
     "abilities": {
       "str": {
         "value": 12,
-        "proficient": 1,
+        "proficient": 0,
         "min": 3,
         "mod": 1
       },
@@ -23,7 +23,7 @@
         "mod": 2
       },
       "int": {
-        "value": 14,
+        "value": 15,
         "proficient": 0,
         "min": 3,
         "mod": 2
@@ -35,7 +35,7 @@
         "mod": 2
       },
       "cha": {
-        "value": 20,
+        "value": 19,
         "proficient": 1,
         "min": 3,
         "mod": 4
@@ -65,16 +65,19 @@
         "climb": 0,
         "fly": 0,
         "swim": 0,
-        "walk": 30,
+        "walk": null,
         "units": "ft",
         "hover": false
       },
-      "spellcasting": "cha",
-      "speed": {
-        "_deprecated": true,
-        "value": "30 ft",
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
         "special": ""
       },
+      "spellcasting": "cha",
       "death": {
         "success": 0,
         "failure": 0
@@ -83,7 +86,7 @@
         "value": null,
         "max": null
       },
-      "exhaustion": "1",
+      "exhaustion": "0",
       "inspiration": false,
       "deathsaves1": false,
       "deathsaves2": false,
@@ -188,7 +191,11 @@
       "break1": false,
       "break2": false,
       "break3": false,
-      "break4": false
+      "break4": false,
+      "speed": {
+        "value": "",
+        "special": ""
+      }
     },
     "details": {
       "biography": {
@@ -199,7 +206,7 @@
       "race": "Human",
       "background": "Entertainer",
       "xp": {
-        "value": 3015,
+        "value": 4070,
         "min": 0,
         "max": 6500,
         "pct": 46.38461538461539
@@ -251,7 +258,16 @@
       "title2": "",
       "title2e": "",
       "title3": "",
-      "title3e": ""
+      "title3e": "",
+      "notes4": {
+        "value": "<p>+1 renom avec Harpers</p>"
+      },
+      "notes": {
+        "value": "<p>sort 4th m&eacute;thode chamanique modifi&eacute; pour plusieurs d&eacute;mons mineurs (d&eacute;mon mineurs) cloche pentacle plaque poup&eacute;e de paille c&eacute;r&eacute;monie ritualis&eacute;</p>"
+      },
+      "attunedItemsMax": "3",
+      "attunedItemsCount": 0,
+      "maxPreparedSpells": null
     },
     "traits": {
       "size": "med",
@@ -271,7 +287,6 @@
         "value": [],
         "custom": ""
       },
-      "senses": "",
       "languages": {
         "value": [
           "common",
@@ -335,7 +350,7 @@
         "mod": 1
       },
       "dec": {
-        "value": 1,
+        "value": 2,
         "ability": "cha",
         "type": "Number",
         "label": "Deception",
@@ -398,7 +413,7 @@
         "mod": 6
       },
       "per": {
-        "value": 1,
+        "value": 2,
         "ability": "cha",
         "type": "Number",
         "label": "Persuasion",
@@ -440,7 +455,7 @@
         "max": 4
       },
       "spell2": {
-        "value": 3,
+        "value": 2,
         "override": 2,
         "max": 3
       },
@@ -517,7 +532,7 @@
     },
     "resources": {
       "primary": {
-        "value": 4,
+        "value": 3,
         "max": 4,
         "sr": false,
         "lr": true,
@@ -726,15 +741,15 @@
       ]
     },
     "VariantEncumbrance": {
-      "speed": 30,
-      "weight": 34.78,
+      "speed": null,
+      "weight": null,
       "tier": 0
     },
     "exportSource": {
       "world": "dragon-heist",
       "system": "dnd5e",
-      "coreVersion": "0.7.7",
-      "systemVersion": "1.1.1"
+      "coreVersion": "0.7.9",
+      "systemVersion": "1.2.2"
     }
   },
   "img": "tokens/Frath%20Chatzaug.Avatar.Pv4sfw4DUt9qDTtD.png?t=1589141356171",
@@ -788,7 +803,7 @@
         "quantity": 1,
         "weight": 0,
         "price": 0,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "common",
         "identified": true,
@@ -921,7 +936,7 @@
         "quantity": 1,
         "weight": 1,
         "price": 2,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true,
@@ -1093,7 +1108,7 @@
         "quantity": 1,
         "weight": 2,
         "price": 25,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true,
@@ -1266,7 +1281,7 @@
         "quantity": 1,
         "weight": 5,
         "price": 2,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1303,7 +1318,7 @@
         "quantity": 1,
         "weight": 7,
         "price": 1,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1340,7 +1355,7 @@
         "quantity": 5,
         "weight": 0,
         "price": 0.01,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1377,7 +1392,7 @@
         "quantity": 3,
         "weight": 4,
         "price": 5,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true
@@ -1414,7 +1429,7 @@
         "quantity": 5,
         "weight": 2,
         "price": 0.5,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true
@@ -1451,7 +1466,7 @@
         "quantity": 1,
         "weight": 5,
         "price": 0.2,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true
@@ -1488,7 +1503,7 @@
         "quantity": 1,
         "weight": 3,
         "price": 25,
-        "attuned": false,
+        "attunement": 0,
         "equipped": false,
         "rarity": "Common",
         "identified": true,
@@ -1533,7 +1548,7 @@
         "quantity": 1,
         "weight": 1,
         "price": 2,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true,
@@ -1578,7 +1593,7 @@
         "quantity": 1,
         "weight": 2,
         "price": 35,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true,
@@ -2997,7 +3012,7 @@
         "quantity": 1,
         "weight": 0,
         "price": 120,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Uncommon",
         "identified": true,
@@ -3045,7 +3060,7 @@
         "formula": "",
         "save": {
           "ability": "wis",
-          "dc": null,
+          "dc": 14,
           "scaling": "spell"
         },
         "consumableType": "scroll",
@@ -3079,14 +3094,14 @@
           "units": "minute"
         },
         "target": {
-          "value": 1,
+          "value": null,
           "width": null,
           "units": "self",
           "type": "creature"
         },
         "range": {
-          "value": 0,
-          "long": 0,
+          "value": null,
+          "long": null,
           "units": "self"
         },
         "uses": {
@@ -3111,7 +3126,7 @@
         "formula": "",
         "save": {
           "ability": "wis",
-          "dc": null,
+          "dc": 14,
           "scaling": "spell"
         },
         "level": 2,
@@ -3202,7 +3217,7 @@
         "formula": "",
         "save": {
           "ability": "con",
-          "dc": null,
+          "dc": 14,
           "scaling": "spell"
         },
         "level": 2,
@@ -3249,7 +3264,7 @@
         "quantity": 1,
         "weight": 3,
         "price": 5,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "None",
         "identified": false,
@@ -3321,7 +3336,7 @@
         "quantity": 1,
         "weight": 10,
         "price": 10,
-        "attuned": false,
+        "attunement": 0,
         "equipped": true,
         "rarity": "Common",
         "identified": true,
@@ -3523,7 +3538,7 @@
           "_deprecated": true
         }
       },
-      "sort": 2800000,
+      "sort": 4100000,
       "flags": {
         "entityorder": {
           "order": 225
@@ -3763,8 +3778,8 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
-          "max": 0,
+          "value": 1,
+          "max": 1,
           "per": "",
           "type": ""
         },
@@ -3806,8 +3821,12 @@
           }
         }
       },
-      "sort": 3400000,
-      "flags": {},
+      "sort": 4200000,
+      "flags": {
+        "favtab": {
+          "isFavorite": true
+        }
+      },
       "img": "systems/dnd5e/icons/skills/green_19.jpg",
       "effects": []
     },
@@ -3880,7 +3899,11 @@
         }
       },
       "sort": 3500000,
-      "flags": {},
+      "flags": {
+        "favtab": {
+          "isFavorite": true
+        }
+      },
       "img": "modules/plutonium/media/icon/mighty-force.svg",
       "effects": []
     },
@@ -4028,7 +4051,11 @@
         }
       },
       "sort": 3700000,
-      "flags": {},
+      "flags": {
+        "favtab": {
+          "isFavorite": true
+        }
+      },
       "img": "modules/plutonium/media/icon/mighty-force.svg",
       "effects": []
     },
@@ -4102,7 +4129,11 @@
         }
       },
       "sort": 3800000,
-      "flags": {},
+      "flags": {
+        "favtab": {
+          "isFavorite": true
+        }
+      },
       "img": "modules/plutonium/media/icon/mighty-force.svg",
       "effects": []
     },
@@ -4253,6 +4284,183 @@
       "flags": {},
       "img": "modules/plutonium/media/icon/mighty-force.svg",
       "effects": []
+    },
+    {
+      "_id": "GuLAF5PodwoyyNAB",
+      "name": "Message",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>You point your finger toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.</p><div class=\"rd__spc-inline-post\"></div><p>You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the spell. The spell doesn't have to follow a straight line and can travel freely around corners or through openings.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "round"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 120,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "trs",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a short piece of copper wire",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 4100000,
+      "flags": {},
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_letter_04.jpg",
+      "effects": []
+    },
+    {
+      "_id": "QcTS3ixUUA06XM5a",
+      "name": "Shatter",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>A sudden loud ringing noise, painfully intense, erupts from a point of your choice within range. Each creature in a 10-foot-radius sphere centered on that point must make a Constitution saving throw. A creature takes [[/r 3d8]] thunder damage on a failed save, or half as much damage on a successful one. A creature made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw.</p><div class=\"rd__spc-inline-post\"></div><p>A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.</p></div><div  class=\"rd__b  rd__b--3\"><div  class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\" > <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by [[/r 1d8]] for each slot level above 2nd.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": 10,
+          "width": null,
+          "units": "ft",
+          "type": "sphere"
+        },
+        "range": {
+          "value": 60,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "3d8",
+              "thunder"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": 14,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a chip of mica",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d8"
+        }
+      },
+      "sort": 4200000,
+      "flags": {},
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_mage_shattershield.jpg",
+      "effects": []
     }
   ],
   "effects": [
@@ -4272,6 +4480,7 @@
           "priority": 4
         }
       ],
+      "disabled": false,
       "duration": {
         "startTime": 43111044000
       },
