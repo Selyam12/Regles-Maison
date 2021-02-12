@@ -1,7 +1,7 @@
 #Waterdeep
 
 |Merchandise|	Demande|
--------------------------
+|-----------|----------|
 |Grain, vegetables|	-2|
 |Fish, preserved|	-1|
 |Wood, common|	1|
@@ -35,8 +35,9 @@
 |Gems|	1|
 
 #Cromm's Hold
+
 |Merchandise|	Demande|
-------------------------
+|-----------|----------|
 |Grain, vegetables|	-4|
 |Fish, preserved|	-1|
 |Wood, common|	-1|
